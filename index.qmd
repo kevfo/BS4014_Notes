@@ -1,9 +1,22 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+*BS4017: Molecular Basis of Diseases* is a 13-week module that is worth three **a**cademic **u**nits (i.e., **AUs**).  More information about this course will be shown in the following sections of this page.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## Course Objectives
 
-```{r}
-1 + 1
-```
+BS4017 aims to provide insight into the molecular aspects of the following diseases:
+
+- Cancer
+- Neuronal diseases (e.g., Alzheimer's Disease)
+- Infectious diseases (e.g., multi-drug resistant bacteria)
+
+In doing so, target molecules, molecular interactions, pathways, and drugs will all be examined.
+
+## Assessment Components
+
+BS4017 has the following graded components:
+
+1.  Mid-term test (9^th^ October, 2023).
+1.  Reflection essay (due 14^th^ November, 2023).
+1.  Take-home quizzes (10% of grade in total)
+1.  Final exam (5^th^ December, 2023)
