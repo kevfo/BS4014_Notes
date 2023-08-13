@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 30b591c2-f7c7-4dae-a076-da8dc0172a7e
+      url: 'https://quartopub.com/sites/underpaidintern/bs4014-molecular-basis-of-diseases'

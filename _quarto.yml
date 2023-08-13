@@ -1,0 +1,29 @@
+project:
+  type: book
+
+book:
+  title: "BS4014: Molecular Basis of Diseases"
+  author: "Kevin Fo"
+  date: "05/08/2023"
+  chapters:
+    - index.qmd
+    - part: "**PART I: LECTURE NOTES**"
+      chapters:
+        - chapters/week1.qmd
+  sharing: [twitter, facebook]
+  page-navigation: true
+  repo-url: https://github.com
+  repo-actions: [edit, issue]
+  reader-mode: true
+  comments: 
+    hypothesis: true
+
+format:
+  html:
+    toc: true 
+    theme:
+      light: cosmo
+      dark: darkly
+      
+editor: visual
+
