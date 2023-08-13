@@ -144,7 +144,7 @@ The above figure outlines some possible approaches to inhibit Ras activity:
 
     A chemical group could be attached to GTPases, thereby changing its structure and preventing proper function.  If a GTPase is unable to activate Ras, then Ras activity cannot resume.
     
-1.  **"Inhibition of GTPase-GEF Interactions**
+1.  **Inhibition of GTPase-GEF Interactions**
 
     This directly prevents Ras from being activated, essentially stopping Ras activity.
     
@@ -158,7 +158,7 @@ The above figure outlines some possible approaches to inhibit Ras activity:
 knitr::include_graphics("../imgs/week1/ttrSubunit.png")
 ```
 
-**TTR** is a blood protein that's found in our blood in minuscule amounts (i.e., about 5 $\mu$m) and carries two things around in rodents: *retinol* and *thyroxine (i.e., T4)*.
+**TTR** is a blood protein that's found in our blood in minuscule amounts (i.e., about 5 $\mu$mol) and carries two things around in rodents: *retinol* and *thyroxine (i.e., T4)*.
 
 TTR is about 127 amino acids long and form groups of four called **tetramers**.  These groups carry two retinol binding proteins.  When TTR is mutated, this can cause degenrative diseases.
 
