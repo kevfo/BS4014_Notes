@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.189">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>BS4014: Molecular Basis of Diseases - 1&nbsp; Cancer and Protein Misfolding</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../index.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Cancer and Protein Misfolding</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">BS4014: Molecular Basis of Diseases</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+            <i class="bi bi-bi-twitter pe-1"></i>
+          Twitter
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+            <i class="bi bi-bi-facebook pe-1"></i>
+          Facebook
+          </a>
+        </li>
+    </ul>
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true"><strong>PART I: LECTURE NOTES</strong></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week1.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Cancer and Protein Misfolding</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#cancer-cells-genetics-and-biochemistry" id="toc-cancer-cells-genetics-and-biochemistry" class="nav-link active" data-scroll-target="#cancer-cells-genetics-and-biochemistry"><span class="toc-section-number">1.1</span>  Cancer: Cells, Genetics, and Biochemistry</a>
+  <ul class="collapse">
+  <li><a href="#the-cell-cycle-and-cancer" id="toc-the-cell-cycle-and-cancer" class="nav-link" data-scroll-target="#the-cell-cycle-and-cancer"><span class="toc-section-number">1.1.1</span>  The Cell Cycle and Cancer</a></li>
+  <li><a href="#origins-of-cancer" id="toc-origins-of-cancer" class="nav-link" data-scroll-target="#origins-of-cancer"><span class="toc-section-number">1.1.2</span>  Origins of Cancer</a></li>
+  <li><a href="#molecular-events-in-cancer" id="toc-molecular-events-in-cancer" class="nav-link" data-scroll-target="#molecular-events-in-cancer"><span class="toc-section-number">1.1.3</span>  Molecular Events in Cancer</a></li>
+  <li><a href="#rb-protein-in-cell-growth" id="toc-rb-protein-in-cell-growth" class="nav-link" data-scroll-target="#rb-protein-in-cell-growth"><span class="toc-section-number">1.1.4</span>  Rb Protein in Cell Growth</a></li>
+  <li><a href="#reaction-cycle-of-ras" id="toc-reaction-cycle-of-ras" class="nav-link" data-scroll-target="#reaction-cycle-of-ras"><span class="toc-section-number">1.1.5</span>  Reaction Cycle of Ras</a></li>
+  </ul></li>
+  <li><a href="#transthyretin-i.e.-ttr-amyloidoses" id="toc-transthyretin-i.e.-ttr-amyloidoses" class="nav-link" data-scroll-target="#transthyretin-i.e.-ttr-amyloidoses"><span class="toc-section-number">1.2</span>  Transthyretin (i.e., TTR) Amyloidoses</a>
+  <ul class="collapse">
+  <li><a href="#alzheimers-disease-i.e.-ad" id="toc-alzheimers-disease-i.e.-ad" class="nav-link" data-scroll-target="#alzheimers-disease-i.e.-ad"><span class="toc-section-number">1.2.1</span>  Alzheimer’s Disease (i.e., AD)</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/edit/main/chapters/week1.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Cancer and Protein Misfolding</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>This week’s lecture aims to give a bird’s eye view of the course’s content. It’s not a comprehensive dive into any of chapter’s mentioned topics or sub-topics, but it does provide an okay foundation for moving onto more advanced topics.</p>
+<section id="cancer-cells-genetics-and-biochemistry" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="cancer-cells-genetics-and-biochemistry"><span class="header-section-number">1.1</span> Cancer: Cells, Genetics, and Biochemistry</h2>
+<p>This portion of the week’s lecture focuses on cancer origins and <strong>proto-oncogenes</strong>: genes involved in cell growth and division that could potentially be an oncogene and contribute to cancer when it’s mutated or overexpressed.</p>
+<section id="the-cell-cycle-and-cancer" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="the-cell-cycle-and-cancer"><span class="header-section-number">1.1.1</span> The Cell Cycle and Cancer</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/cellcycle.png" class="img-fluid figure-img" width="203"></p>
+<p></p><figcaption class="figure-caption">Stages of the Cell Cycle</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Cells - the building blocks of living organisms - come together to form larger structures called <strong>tissues</strong>. Cells rest, grow, divide to make more cells, change into specific roles, and eventually die. It’s important for cells to follow this cycle to keep everything working smoothly.</p>
+<p>Furthermore, the human body has 10<sup>14</sup> cells. Billions of cells undergo mutations each day.</p>
+<p>Sometimes, these mutations can cause the cell to grow or divide vigorously. These are <strong>mutant cells</strong>. These mutant cells can also invade other cells if left uncontrolled.</p>
+</section>
+<section id="origins-of-cancer" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="origins-of-cancer"><span class="header-section-number">1.1.2</span> Origins of Cancer</h3>
+<p>This sub-subsection examines two sources of cancer.</p>
+<section id="clonal" class="level4" data-number="1.1.2.1">
+<h4 data-number="1.1.2.1" class="anchored" data-anchor-id="clonal"><span class="header-section-number">1.1.2.1</span> Clonal</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/mutations.png" class="img-fluid figure-img" width="593"></p>
+<p></p><figcaption class="figure-caption">Mutations Creating a Cancerouns Cell</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The above figure shows that cancer is <em>not</em> caused by a single mutation. It is the result of <em>many</em> mutations that accumulate over time.</p>
+</section>
+<section id="molecular" class="level4" data-number="1.1.2.2">
+<h4 data-number="1.1.2.2" class="anchored" data-anchor-id="molecular"><span class="header-section-number">1.1.2.2</span> Molecular</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/geneticChanges.png" class="img-fluid figure-img" width="588"></p>
+<p></p><figcaption class="figure-caption">Example Mutations on a Hypothetical Gene X</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The above graphic demonstrates two main ways by which a gene “Gene X” could be inactivated, thereby causing cancer:</p>
+<ol type="1">
+<li><p><strong>Genetic Gene Inactivation</strong></p>
+<p>In this scenario, “Gene X” could be vital for restricting cell growth and / or division. If “Gene X” happens to be silenced or inactivated, the cell would have no way of slowing its growth or division.</p>
+<p>As the cell continues to divide and grow, this may cause cancer if the cells grow uncontrollably and the silenced “Gene X” is allowed to be transmitted to daughter cells.</p></li>
+<li><p><strong>DNA Packaging into Heterochromatin</strong></p>
+<p><strong>Heterochromatin</strong> is tightly packed DNA that is not very accessible for gene expression. Nonetheless, if a crucial part of DNA involved in overseeing cell growth is silenced or is not as expressed, the processes that the “part of DNA” is involved in could lead to cancer if it causes cells to grow or divide uncontrollably.</p></li>
+<li><p><strong>Methylation of “C” Nucleotides</strong></p>
+<p>Methyl groups can attach to the “C” nucleotides of DNA. However, when too many methyl groups attach to these “C” nucleotides, the DNA may not be transcripted properly, possibly leading to cancer as the proteins that control cell growth and division may not be expressed properly.</p></li>
+</ol>
+</section>
+</section>
+<section id="molecular-events-in-cancer" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" class="anchored" data-anchor-id="molecular-events-in-cancer"><span class="header-section-number">1.1.3</span> Molecular Events in Cancer</h3>
+<p>When normal cells undergo mitosis, <strong>telomeres</strong> - the ends of the cells’ chromosomes - shorten each time a cell divides. Once the telomere is too short, the cell stops dividing for good. This entire process - in fancy speak - is called <strong>replicative cell senescence</strong>.</p>
+<p>Canceorus cells don’t undergo replicative cell senescence for one of two reasons:</p>
+<ol type="1">
+<li><p><strong>Inactivation of p53 Pathway</strong></p>
+<p>The p53 pathway is akin to a security system that ensures that everything is well prior to the cell dividing. If this pathway is inactivated, cells could potentially keep dividing and cause a tumor (i.e., cancer).</p></li>
+<li><p><strong>Maintaining Telomerase Activity For Too Long</strong></p>
+<p>A <strong>telomerase</strong> is an enzyme that prevents telomeres from getting shorter with each cell division. When cells don’t stop dividing, this can lead to cancer.</p></li>
+</ol>
+</section>
+<section id="rb-protein-in-cell-growth" class="level3" data-number="1.1.4">
+<h3 data-number="1.1.4" class="anchored" data-anchor-id="rb-protein-in-cell-growth"><span class="header-section-number">1.1.4</span> Rb Protein in Cell Growth</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/rb.png" class="img-fluid figure-img" width="414"></p>
+<p></p><figcaption class="figure-caption">Rb Changes Throughout the Cell Cycle</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The above figure outlines how behavioral changes in <strong>Retinoblastoma</strong> (i.e., <strong>Rb</strong>) - a so-called “stop sign” that controls cell division - influences the cell cycle:</p>
+<ol type="1">
+<li>When cells are done dividing, Rb is activated by phosphatases.</li>
+<li>When <strong>mitogens</strong> - signal proteins - don’t get secreted, Rb “sticks” to other proteins that also control cell growth. This inhibits the cell from dividing as cell growth no longer works.</li>
+<li>When signals cause the cell to grow, cyclins and CDKs (i.e., <strong>C</strong>yclin-<strong>D</strong>ependent <strong>K</strong>inases) become active. These cyclins and CDKs put phosphate groups on Rb.</li>
+<li>Because of 3., Rb and another protein called <strong>E2F</strong> cannot bind together. Certain genes that signal cells to grow become activated.</li>
+</ol>
+<section id="removing-rb-from-e2f-via-phosphorylation" class="level4" data-number="1.1.4.1">
+<h4 data-number="1.1.4.1" class="anchored" data-anchor-id="removing-rb-from-e2f-via-phosphorylation"><span class="header-section-number">1.1.4.1</span> Removing Rb from E2F via Phosphorylation</h4>
+<p>The end part of Rb - <strong>RbC</strong> - only connects to E2F when it’s with another protein called <strong>DP</strong>. When phosphate groups are added to RbC, Rb changes its shape - this causes E2F to not attach to a specific spot on Rb.</p>
+</section>
+</section>
+<section id="reaction-cycle-of-ras" class="level3" data-number="1.1.5">
+<h3 data-number="1.1.5" class="anchored" data-anchor-id="reaction-cycle-of-ras"><span class="header-section-number">1.1.5</span> Reaction Cycle of Ras</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/rasActivation.png" class="img-fluid figure-img" width="612"></p>
+<p></p><figcaption class="figure-caption">Cycle of Ras Activation and Inactivation</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The protein <strong>Ras</strong> in the above figure is a molecular switch that controls signalling pathways involved in growth, survival, and proliferation. The above graphic also shows how Ras behaves in a cell:</p>
+<ol type="1">
+<li><strong>GDIs</strong> - “caretakers” of Ras - form groups with Ras. These groups are soluble and enable Ras to move between various parts of the cell membrane.</li>
+<li>When the Ras has a GDP molecule attached to it, it enters a “resting” mode. A helper called <strong>GEF</strong> steps in when it’s time for Ras to become active again. GEF helps Ras exchange GDP for GTP - this gives the Ras energy to do its job.</li>
+<li>At this point, Ras is capable of interacting with other proteins called <strong>effectors</strong>. These effectors enable Ras to start a chain reaction of signals.</li>
+<li>When a protein called <strong>GAP</strong> binds to Ras, GAP breaks apart Ras and the GTP molecule that it was originally bound to. This is called <strong>hydrolysis</strong>. Ras goes back to its resting state.</li>
+</ol>
+<section id="examples-of-ras-mutants" class="level4" data-number="1.1.5.1">
+<h4 data-number="1.1.5.1" class="anchored" data-anchor-id="examples-of-ras-mutants"><span class="header-section-number">1.1.5.1</span> Examples of Ras Mutants</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/rasMutants.png" class="img-fluid figure-img" width="522"></p>
+<p></p><figcaption class="figure-caption">Examples of Ras Mutations and Tumor Causes</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The above table displays some examples of Ras mutations and the kinds of tumors that they can cause.</p>
+<p>Two structural mutations are covered in this week’s lecture:</p>
+<ol type="1">
+<li><p><strong>G12R Mutant</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/g12r.png" class="img-fluid figure-img" width="136"></p>
+<p></p><figcaption class="figure-caption">PyMOL Visualization of G12R Mutant of Ras</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>A guanidium group appears here and has new interactions - a salt bridge interaction with the <span class="math inline">\(\gamma\)</span>-phosphate of GTP and the hydrogen bond with the carbonyl group of the T35 amino acid in the figure above.</p>
+<p>The sidechain of amino acid Q61 also moves away from Ras’ binding pocket, hence GTP is unable to be broken down in this mutant.</p></li>
+<li><p><strong>G12V Mutant</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/g12v.png" class="img-fluid figure-img" width="140"></p>
+<p></p><figcaption class="figure-caption">PyMOL Visualization of G12V Mutant of Ras</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>There’s a big distance between the nitrogen backbone of G13 and the <span class="math inline">\(\beta\)</span>-<span class="math inline">\(\gamma\)</span> bridging oxygen of GTP.</p></li>
+</ol>
+</section>
+<section id="inhibiting-ras-activity" class="level4" data-number="1.1.5.2">
+<h4 data-number="1.1.5.2" class="anchored" data-anchor-id="inhibiting-ras-activity"><span class="header-section-number">1.1.5.2</span> Inhibiting Ras Activity</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/stopRas.png" class="img-fluid figure-img" width="408"></p>
+<p></p><figcaption class="figure-caption">Mechanisms to Inhibit Ras</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The above figure outlines some possible approaches to inhibit Ras activity:</p>
+<ol type="1">
+<li><p><strong>Stabilization of GTPase-Protein Complexes</strong></p>
+<p>This refers to finding ways to keep GTPases bound to their GTP molecules for as long as possible. The longer the two entities stay together, Ras activity will not happen.</p></li>
+<li><p><strong>Interference with Nucleotide Binding</strong></p>
+<p>Ras will be unable to switch between its active and inactivate staes as a result of this, hence downstream pathways don’t get activated.</p></li>
+<li><p><strong>Irreversible Covalent Modification</strong></p>
+<p>A chemical group could be attached to GTPases, thereby changing its structure and preventing proper function. If a GTPase is unable to activate Ras, then Ras activity cannot resume.</p></li>
+<li><p><strong>“Inhibition of GTPase-GEF Interactions</strong></p>
+<p>This directly prevents Ras from being activated, essentially stopping Ras activity.</p></li>
+<li><p><strong>Inhibition of GTPase-Effector Interactions</strong></p>
+<p>This disrupts the communications that Ras uses to activate pathways, hence cutting off Ras activity.</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="transthyretin-i.e.-ttr-amyloidoses" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="transthyretin-i.e.-ttr-amyloidoses"><span class="header-section-number">1.2</span> Transthyretin (i.e., TTR) Amyloidoses</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/ttrSubunit.png" class="img-fluid figure-img" width="167"></p>
+<p></p><figcaption class="figure-caption">Illustration of TTR Subunits</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>TTR</strong> is a blood protein that’s found in our blood in minuscule amounts (i.e., about 5 <span class="math inline">\(\mu\)</span>m) and carries two things around in rodents: <em>retinol</em> and <em>thyroxine (i.e., T4)</em>.</p>
+<p>TTR is about 127 amino acids long and form groups of four called <strong>tetramers</strong>. These groups carry two retinol binding proteins. When TTR is mutated, this can cause degenrative diseases.</p>
+<section id="alzheimers-disease-i.e.-ad" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="alzheimers-disease-i.e.-ad"><span class="header-section-number">1.2.1</span> Alzheimer’s Disease (i.e., AD)</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/ad.png" class="img-fluid figure-img" width="476"></p>
+<p></p><figcaption class="figure-caption">A Healthy Brain versus a Brain with AD</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Alzheimer’s disease</strong> is a chronic neurodegenerative disease that causes 60% to 70% of dementia cases. 26 million patients suffer from it as of the time of writing.</p>
+<p>AD starts with short term memory loss before going to language problems, disorientation, and losing body functions in the long run (before the patient dies).</p>
+<section id="app-processing-and-ad" class="level4" data-number="1.2.1.1">
+<h4 data-number="1.2.1.1" class="anchored" data-anchor-id="app-processing-and-ad"><span class="header-section-number">1.2.1.1</span> APP Processing and AD</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/appsa.png" class="img-fluid figure-img" width="315"></p>
+<p></p><figcaption class="figure-caption">A Schematic of Non-Amyloidogenic APP Processing</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>APP</strong> is a protein that is processed in our brains in a certain fashion:</p>
+<ol type="1">
+<li>A “pair of scissors” <strong><span class="math inline">\(\alpha\)</span>-secretase</strong> cuts APP. A <strong>secretase</strong> is a protein that cuts transmembrane proteins into smaller parts so that it can be degraded or used elsewhere.</li>
+<li>Two fragments called <strong>APPs<span class="math inline">\(\alpha\)</span></strong> and <strong><span class="math inline">\(\alpha\)</span>-CTF</strong> are released: <strong>APPs<span class="math inline">\(\alpha\)</span></strong> is released to the outside of the cell.</li>
+<li>Another “pair of scissors” <strong><span class="math inline">\(\gamma\)</span>-secretase</strong> cuts <strong><span class="math inline">\(\alpha\)</span>-CTF</strong> into two more parts: <strong>p3</strong> and <strong>AICD</strong>.</li>
+</ol>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/amyloid.png" class="img-fluid figure-img" width="296"></p>
+<p></p><figcaption class="figure-caption">A Schematic of Amyloidogenic APP Processing</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>When things go awry, <span class="math inline">\(\gamma\)</span>-secretase cleaves <span class="math inline">\(\alpha\)</span>-CTF to form AICD and <strong>A<span class="math inline">\(\beta\)</span></strong>. These amyloids form fibrils that are responsible for Alzheimer’s.</p>
+</section>
+<section id="inhibiting-amyloid-fibril-formation" class="level4" data-number="1.2.1.2">
+<h4 data-number="1.2.1.2" class="anchored" data-anchor-id="inhibiting-amyloid-fibril-formation"><span class="header-section-number">1.2.1.2</span> Inhibiting Amyloid Fibril Formation</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week1/fibrils.png" class="img-fluid figure-img" width="318"></p>
+<p></p><figcaption class="figure-caption">Strategies to Inhibit Amyloid Fibril Formation</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The above figure lists strategies to prevent amyloid fibrils from forming (hence leading to Alzheimer’s):</p>
+<ol type="1">
+<li><p><strong>Stabilization of the Native State</strong></p>
+<p>By maintaining the original shape of p3, it won’t turn into A<span class="math inline">\(\beta\)</span> and form the said fibrils.</p></li>
+<li><p><strong>Sequestering Monomeric Unfolded State</strong></p>
+<p>Special molecules could be used to keep unfolded proteins from sticking together and forming clumps (hence inhibiting fibril formation).</p></li>
+<li><p><strong>Stabilization or Promotion of Off-Pathway Oligomers</strong></p>
+<p>Sometimes, proteins can come together in a way that they’re not supposed to. These are called <strong>off-pathway oligomers</strong> and can lead to fibril formation.</p></li>
+<li><p><strong><span class="math inline">\(\beta\)</span>-Sheet Breakers that Stop Fibril Elongation</strong></p>
+<p>Amyloid fibrils are linked together by structures called <strong><span class="math inline">\(\beta\)</span>-sheets</strong>. Breaking these sheets stops amyloid fibrils from forming.</p></li>
+<li><p><strong>Disassembly of Amyloid Fibrils</strong></p>
+<p>Disassembling fibrils can help stop the progression of Alzheimer’s disease.</p></li>
+<li><p><strong>Refolding</strong></p>
+<p>When the proteins that form the fibrils get refolded properly, they no longer form fibrils and also don’t contribute to the progression of Alzheimer’s disease.</p></li>
+<li><p><strong>Clearance by Chaperons and Antibodies</strong></p>
+<p>When chaperones and antibodies work together, they stop amyloid fibrils from sticking together and causing problems. This also prevents amyloid fibril formation.</p></li>
+</ol>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
