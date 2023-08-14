@@ -13,7 +13,7 @@ book:
         - chapters/week1.qmd
   sharing: [twitter, facebook]
   page-navigation: true
-  repo-url: https://github.com
+  repo-url: https://github.com/kevfo/BS4014_Notes
   repo-actions: [edit, issue]
   reader-mode: true
   comments: 
