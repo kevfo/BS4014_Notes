@@ -1,10 +1,10 @@
 # Preface {.unnumbered}
 
-*BS4017: Molecular Basis of Diseases* is a 13-week module that is worth three **a**cademic **u**nits (i.e., **AUs**).  More information about this course will be shown in the following sections of this page.
+*BS4014: Molecular Basis of Diseases* is a 13-week module that is worth three **a**cademic **u**nits (i.e., **AUs**).  More information about this course will be shown in the following sections of this page.
 
 ## Course Objectives
 
-BS4017 aims to provide insight into the molecular aspects of the following diseases:
+BS4014 aims to provide insight into the molecular aspects of the following diseases:
 
 - Cancer
 - Neuronal diseases (e.g., Alzheimer's Disease)
@@ -14,7 +14,7 @@ In doing so, target molecules, molecular interactions, pathways, and drugs will 
 
 ## Assessment Components
 
-BS4017 has the following graded components:
+BS4014 has the following graded components:
 
 1.  Mid-term test (9^th^ October, 2023).
 1.  Reflection essay (due 14^th^ November, 2023).
