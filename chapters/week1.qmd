@@ -1,4 +1,4 @@
-# Cancer and Protein Misfolding
+# Course Concepts Overview
 
 This week's lecture aims to give a bird's eye view of the course's content. It's not a comprehensive dive into any of chapter's mentioned topics or sub-topics, but it does provide an okay foundation for moving onto more advanced topics.
 
@@ -18,7 +18,7 @@ Furthermore, the human body has 10^14^ cells.  Billions of cells undergo mutatio
 
 Sometimes, these mutations can cause the cell to grow or divide vigorously.  These are **mutant cells**.  These mutant cells can also invade other cells if left uncontrolled.
 
-### Origins of Cancer
+### Origins of Cancer {#events}
 
 This sub-subsection examines two sources of cancer.
 
