@@ -1,0 +1,74 @@
+# Origins of Cancer, Oncogenes, and Tumor Suppressor Genes
+
+This week's (i.e., week 2) tutorial contains six short-answer questions:
+
+## Question 1
+
+> What are some pieces of molecular evidence that lend support to the clonal origin of cancer?
+
+The answer to this question can be found [here](#clonalevi).
+
+Nonetheless, some evidence for the clonal origin of cancer are:
+
+1.  **Philadelphia chromosome in CML patients**
+
+    Chronic Myelogenous Leukemia (i.e., CML) patients have a genetic mutation whereby the *abl* and the *bcr* gene on chromosomes 9 and 22 respectively are swapped (i.e., translocated).  This event results in the creation of a modified chromosome 22 otherwise known as the **Philadelphia chromosome**.  Nonetheless, this event also creates an abnormally active tyrosine kinase and ultimately, cancer.
+    
+    As cancerous cells in CML patients all have the Philadelphia chromosome, this suggests the cells are derived from an ancestor.
+    
+1.  **Random Inactivation of X Chromosomes**
+
+    Random X chromosomes are inactivated during one's lifetime.  In tumor tissue, the cancerous cells have the same (in)activated X chromosomes, hinting that the cancerous cells must derived from a common ancestor.
+
+## Question 2
+
+> What can one conclude from the observation that cancer progression is age dependent?
+
+Cells accumulate a mutations over time that may cause them to grow uncontrollably and resist p53-mediated apoptosis or Rb activities.  This is because one's likelihood of developing cancer increases with age and cancer does not occur with a single mutation.      
+
+## Question 3
+
+> You karyotyped 11 tumor samples obtained from Tasmanian devils and found that the cancerous cells have similar genetic defects: 13 instead of 14 chromosomes, no sex chromosomes, a missing chromosome 2 and 6 pair, and so on.
+>
+> How do you think this cancer was transmitted?  Could the cancer have been transmitted as a result of a virus or a microorganism?
+>
+> (hint: Tasmanian devils often fight by biting their opponent's face and mouth.  One of the Tasmanian devils also has an inversion on chromosome 5 that cannot be found in its facial tumor)
+
+The fact that the cancerous cells all share common feature hint to the clonal origin of cancer.  We can deduce that the tumors all came from the same cancerous cell.  A Tasmanian devil's fighting style would likely inflict deep puncture wounds on their opponent - if the cancer were transmissible through bites (i.e., the cancerous cells could be transmitted via saliva), this could explain why the 11 Tasmanian devils karyotyped all have facial tumors with similar genetic abnormalities.
+
+The cancer *could* have been transmitted by a microorganism, but this is unlikely.  At least in the context of this course, viral proteins can cause cancer by affecting E2F and Rb's interaction, but not in this manner.
+
+## Question 4
+
+> Explain the leukaemogenic signalling of the Abl-Bcr protein
+
+The p120 Abl-Bcr fusion protein formed as a result of chromosomal translocation of the *abl* and the *bcr* gene on chromosomes 9 and 22 respectively is able to act as a kinase to phosphorylate other proteins, thereby leading to the activation or the inhibition of downstream targets that are involved in the cell cycle, DNA repair, and other key cellular processes.
+
+## Question 5
+
+> The *bcl-abr* fusion protein can be found at a very low level in the blood in about 30% of individuals, yet only a small percentage of that 30% actually develop CML.
+>
+> What are some reasons why this could happen?
+
+Some possible reasons include:
+
+1.  **Genetic and Lifestyle Factors**
+
+    Some individuals may be prone to developing CML than others; furthermore, some individuals may also have been exposed to carcinogens in their everyday life (e.g., construction workers and abestos).
+    
+1.  **Individual Genetic Makeup**
+
+    Everybody's genome is unique and the sole presence of the *bcr-abl* fusion protein gene may not necessarily be enough to trigger CML in most individuals.
+    
+1.  **Cellular Context**
+
+    As CML is a cancer of the blood cells, a *bcr-abl* gene in the genome of another kind of cell may not have the same effect.
+
+## Question 6
+
+> Explain how Klein and Harris were able to discover the presence of tumor suppressor genes in the cell.
+
+Both researchers fused normal mice cells with cancerous ones, they found that the new cells made fewer tumors than the cancerous cells by themselves.  So, there must be something in those normal cells that caused this behavior.
+
+When normal fibroblasts were fused with HeLa cells, they found that the new cells were cancerous.  A closer look at those cells revealed that a missing chromosome 11 was what was causing the behavior, so this led to the hypothesis of a "stop cancer" gene on chromosome 11 - hence tumor supporessor genes.
+
