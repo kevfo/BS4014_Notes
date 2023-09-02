@@ -1,0 +1,237 @@
+# Cancer Cell Metabolism
+
+In this week's lecture, we study the relationship between the protein Ras and GTPases and also learn how Ras becomes activated to do its job.  We also learn how Ras can cause cancer (i.e., how Ras can behave as a cancer promoter) and also how Ras looks like when stuck with GDP and GTP.
+
+## Metabolic Enzymes as an Anti-Cancer Drug Target
+
+### IDH1 Mutations
+
+```{r echo = F, fig.cap = 'Raw Data Illustrating the R132H Mutation', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/r132h.png')
+```
+
+About 80% of grade II to III glioblastomas have a mutation in an enzyme called **c**ytosolic **i**socitrate **d**ehydrogenase **1** (i.e., **IDH1**).  In this sort of mutation, an amino acid of the enzyme - Arginine 132 - gets mutated into histidine.  This is called a **R132H mutation**.
+
+```{r echo = F, fig.cap = 'Visualization of IDH1 with a R132H Mutation', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/idh1.png')
+```
+
+This R132H mutation makes it so that part of IDH1 called **ICT** cannot make ionic bonds between itself and IDH1 (i.e., the enzyme itself).
+
+### What Does IDH1 Do?
+
+```{r echo = F, fig.cap = 'Activity of the IDH1 Enzyme', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/idh1_activity.png')
+```
+
+The normal or "wild type" form of IDH1 (or IDH2) help convert **isocitrate** - something made during the Krebs' cycle - to something called **alpha-ketoglutarate** when it makes NADPH.
+
+When these enzymes are mutated, they take alpha-ketoglutarate and turn it into a cancer-causing agent called **R-2-HG** and also consume NADPH in the process.  This "R-2-HG" then goes onto inhibit proteins that come from the alpha-KG-dependent dioxygenase family.
+
+### A Closer Look at Mutant and Wild Type IDH1
+
+```{r echo = F, fig.cap = 'Comparison Between the Wild Type and the Mutated Forms of IDH1', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/comp.png')
+```
+
+When IDH1 is mutated, it stays closed.  This helps alpha-ketoglutarate bind to it as well.
+
+```{r echo = F, fig.cap = 'Close Comparison of IDH1\'s Active Site in Wild Type and Mutated IDH1', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/closeup.png')
+```
+
+If we take a closer look at the wild type IDH1's active site (i.e., on the right), the 132^nd^ arginine (i.e., R) residue behaves like a hinge that helps the protein to change between its active and inactive (i.e., closed) form. 
+
+However, the R132H mutation makes it so that the protein wants to stay in a closed form, and this causes IDH1 to prefer binding to alpha-ketoglutarate and NADPH.  
+
+## Signalling Mechanisms
+
+### Activating G-Proteins via GCPRs
+
+```{r echo = F, fig.cap = 'Activing a G Protein via a G-Protein Coupled Receptor', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/signalling.png')
+```
+
+There are three steps:
+
+1.  A **G protein** - which is found in the cytoplasm - behaves like a sort of molecular switch.  At this point, this switch is "off".
+
+1.  When a signalling molecule binds to the **G**-**P**rotein **C**oupled **R**eceptor (i.e., **GCPR**), this causes the GCPR to change shape and become activated.
+
+1.  When something called **GTP** binds to the G protein, this causes the G protein to change shape (i.e., conformational change), and the $\alpha$ portion of the receptor disassociates from the receptor and a part of it called the **$\beta\gamma$ complex**.  This is what activates cellular responses.
+
+### Activating Signalling Proteins via Receptor Tyrosine Kinases
+
+```{r echo = F, fig.cap = 'Activation of Signalling Proteins via Activated Receptor Tyrosine Kinases', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/rtks.png')
+```
+
+There are four steps:
+
+1.  The **R**eceptor **T**yrosine **K**inases (i.e., **RTK**) first appear as inactive, single units with a site for the ligands.
+1.  When a signalling molecule binds to these sites, these RTKs then pair up or **dimerzie**.
+1.  The kinase portions (i.e., domains) of the RTK pairs (i.e., dimers) then phosphorylate one another and boost each others' activities.  This phosphorylation affects other parts of the protein.
+1.  These phosphorylated dimers then attract other signalling proteins and form a complex.  This complex then helps send signals along multiple pathways.
+
+## The Ras Superfamily
+
+```{r echo = F, fig.cap = 'Members of the Ras Superfamily of Proteins', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/ras.png')
+```
+
+This superfamily (i.e., really big family) of proteins has all sorts of single units of GTPases, and two proteins called **Rho** and **Ras** help relay signals from cell surface receptors by interacting with various other signalling proteins.
+
+The Ras protein helps affect things like cell proliferation, differentiation, and stopping Ras interactions with TRKs.
+
+### What is Ras?
+
+**Ras** is really a family of related proteins belonging to something called the small **GTPase class**, which play an important role in transmitting signals within cells, a process known as **cellular signal transduction**. When Ras receives incoming signals and is "switched on," it activates other proteins, ultimately triggering genes responsible for cell growth, differentiation, and survival.
+
+Because of this, mutations in ras genes can lead to the production of permanently active Ras proteins, causing unintended and excessive signaling within the cell, even in the absence of incoming signals. Since these signals promote cell growth and division, this overactive Ras signaling can ultimately contribute to the development of cancer.
+
+In humans, there are three Ras genes: **HRas**, **KRas**, and **NRas**, and they are among the most common oncogenes found in human cancer. Mutations that result in the permanent activation of Ras are present in approximately 20% to 25% of all human tumors and can be as high as 90% in specific types of cancer.
+
+```{r echo = F, fig.cap = 'Important Events in Ras Research', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/ras_events.png')
+```
+
+```{r echo = F, fig.cap = 'More Important Events in Ras Research', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/ras_events2.png')
+```
+
+Due to the significant role Ras plays in cancer development, researchers are exploring Ras inhibitors as potential treatments for cancer and other diseases characterized by Ras overexpression. These inhibitors aim to target and suppress the overactive Ras signaling that drives tumor growth.
+
+### Activating Ras via RTKs and GEFs
+
+#### Evidence from the *Drosophilia* Eye
+
+```{r echo = F, fig.cap = 'Closeup of a *Drosophilia* Eye', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/eyeball.png')
+```
+
+The *Drosophila* eye is a has about approximately 800 identical units. Each of these units has its own individual lens, which serves the purpose of focusing incoming light onto eight photoreceptor cells located at its base. This intricate organization allows for efficient light capture and perception within the Drosophila eye.
+
+```{r echo = F, fig.cap = 'Different Eye Colors in Mutant Fruit Flies', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/eyecolor.png')
+```
+
+The photoreceptor cell called **R7** is made for for detecting ultraviolet (UV) light nside a developing *Drosophila* eye. When this "R7" is absent, the fly loses its ability to see UV light, and this condition is referred to as **Sevenless** (i.e., **Sev**). The Sev gene encodes for an RTK, and mutations in this RTK gene block the development of R7. What's weird is that in some flies, RTK remains functional, but R7 does not develop.
+
+Further investigations into these mutants revealed that they carry mutations in the ligand of Sev, called **Bride-of-sevenless** (i.e., **Boss**), which is made by another photoreceptor cell known as **R8**.
+
+Through genetic screening, researchers identified Ras as a component in the Sev signaling pathway. Mutations in either Sev or Ras resulted in the loss of R7. However, an important finding was that an overactive, mutated Ras could still induce the development of R7, even in the presence of mutations in Sev and Boss. This suggests that Ras acts downstream of Sev in the signaling pathway, and its activation in R7 precursor cells is both necessary and sufficient to trigger differentiate R7 photoreceptor cells.
+
+#### How Sev's RTK Activates Ras in the Eye of a Fly
+
+```{r echo = F, fig.cap = 'Activating Ras via the Rev Gene\'s Encoded RTK', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/rev.png')
+```
+
+There are five steps:
+
+1.  The Boss protein that is carried on the surface of the R8 cell binds with **Sev RTK** - the RTK encoded by the Sev gene - on the R7 cell's surface.
+1.  This binding then triggers a protein called **Drk** to activate another protein called **Ras-GEF (SOS)**.
+1.  This Drk protein also recognizes a specific phosphorylated tyrosine (i.e., **pY**) on the Sev RTK using its SH2 domain and interacts with Ras-GEF (SOS) through two SH3 domains.
+1.  SOS activates the Ras protein by replacing GDP with GTP (in the Ras).
+1.  The Ras is now ready to send off signals and set off a series of events inside the cell.
+
+### Activators of Ras
+
+In mammals, RTKs can bind to Ras through an adaptor protein called **Grb2**, and this causes Ras to be activated.
+
+Though, in some cases, the GEF of Ras can be activated even without needing RTKs.  For example, this GEF can be activated using Ca^2+^ ions and something else called **diacylglycerol** - these two things help G-protein-linked receptors and activate Ras
+
+### Activating Ras Using a Single Molecule
+
+```{r echo = F, fig.cap = 'Activating Ras Using a Single Molecule', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/fret.png')
+```
+
+In this experiment, the Ras protein is has a **y**ellow **f**lourescent **p**rotein (i.e., **YFP**) attached to it, and GTP molecules that have been attached to **r**ed **f**lourescent **p**roteins (i.e., **RFPs**).  The Ras was activated by the GTPs, and the YFP that was atttached to it was also activated (i.e., it is activated at wavelengths of 476 nm and emits light at 528 nm).  On the other hand, the RFP emits light at about 617 nm.
+
+```{r echo = F, fig.cap = 'FRET Plot', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/fretplot.png')
+```
+
+As we can see from the above plot, there's a peak at somewhere around 3 to 4 minutes and the Ras was activated at around 30 seconds.
+
+### How do Ras Events Last for a Long Time?
+
+```{r echo = F, fig.cap = 'Prolonging Ras Signalling Effects', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/ras_loving.png')
+```
+
+Ras is inactivated when the GTP that was bound to it gets hydrolyzed or turned into GDP.  In this sense, the initial signals that Ras sends out don't last very long, but the signals that they send out do last for a long time.
+
+Something called a **M**itogen-**A**ctivated **P**rotein (i.e., **MAP**) module can form a group or module that is used in signalling in various events.  When this "module" is active, the MAP kinase module then helps out by phosphorylating other proteins (including transcription regulators and other kinases as well).
+
+### Cancer-Causing Effects of Ras 
+
+When the DNA from a mutated Ras gene was put into a normal cell, researchers found that piece of DNA alone was not enough to make the cell cancerous.  In fact, mutated and cancer-causing (i.e., oncogenic) Ras genes stop cell proliferation and don't promote tumor formation.  Though, what is interesting is that previously mutated cells (e.g., from viral proteins, carcinogens, and their like) could be made cancerous because of the mutated Ras gene.
+
+```{r echo = F, fig.cap = 'Percentage of Tumor-Free Mice Over Time', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/trans.png')
+```
+
+In the above graph, oncogenic DNA was introduced into mice.  The mice with one or two oncogenes (i.e., cancer-causing genes) developed cancer slower.  On the other hand, introducing the *Myc* and the *Ras* oncogenes into the mice more than doubled the rate at which these mice came down with tumors.
+
+### Embedding Ras into the Cell Membranes
+
+```{r echo = F, fig.cap = 'How Ras Gets Inserted into the Cell Membranes', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/membrane.png')
+```
+
+Something called **farnesyl pyrophosphate** (i.e., the stuff in orange in the above diagram) is attached to Ras that have been newly made in the cytoplasm by an enzyme called **farnesyltransferase** (i.e., **Ftase**).
+
+Another enzyme called **palmitoyltransferase** (i.e., **PTase**) then attaches something called **palmitoyl** to the C-ending of the Ras' cysteine residue, and this keeps the Ras stable in the membrane.
+
+### Enzymatic Activity of Ras
+
+```{r echo = F, fig.cap = 'Ras Going from its Active State to its Inactive State', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/enzymatic.png')
+```
+
+```{r echo = F, fig.cap = 'Ras\' Enzyme Activity', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/rasactivity.png')
+```
+
+There are four steps to this:
+
+1.  Ras takes a proton from a catalytic water molecule using its GTP molecule's $\gamma$-phosphate
+1.  The above step results in a nucleophilic hydroxide ion that then attacks the GTP's $\gamma$-phosphate.
+1.  This leads to the formation of an intermediate that has a sort of triangle pyramid shape.
+1.  When GDP leaves in this reaction, this intermediate then decomposes down into GDP and phosphate.
+
+#### Going from GDP-Ras to GTP-Ras
+
+We know that the Ras protein binds to something called the **S**on **o**f **S**evenless (i.e., **SOS**) without any nucleotides.  
+
+```{r echo = F, fig.cap = 'Structure of the Ras-SOS Complex', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/rasras.png')
+```
+
+The Ras in the Ras-SOS complex is pretty much the same if you don't mind the changes in the switches, the P-loop, and the Mg^2+^ binding region.  However, there is a helix called "H" in the above diagram that is inserted within the Ras in the Ras-SOS complex.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

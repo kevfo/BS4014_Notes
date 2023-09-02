@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.189">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>BS4014: Molecular Basis of Diseases - 4&nbsp; Cancer Cell Metabolism</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../tutorials/week2.html" rel="next">
+<link href="../chapters/week3.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Cancer Cell Metabolism</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">BS4014: Molecular Basis of Diseases</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/kevfo/BS4014_Notes" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+            <i class="bi bi-bi-twitter pe-1"></i>
+          Twitter
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+            <i class="bi bi-bi-facebook pe-1"></i>
+          Facebook
+          </a>
+        </li>
+    </ul>
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true"><strong>PART I: LECTURE NOTES</strong></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Concepts Overview</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Origin of Cancer and Proto-Oncogenes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week3.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tumor Suppressor Gene Retinoblastoma (Rb)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week4.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Cancer Cell Metabolism</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true"><strong>PART II: TUTORIALS</strong></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Origins of Cancer, Oncogenes, and Tumor Suppressor Genes</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#metabolic-enzymes-as-an-anti-cancer-drug-target" id="toc-metabolic-enzymes-as-an-anti-cancer-drug-target" class="nav-link active" data-scroll-target="#metabolic-enzymes-as-an-anti-cancer-drug-target"><span class="toc-section-number">4.1</span>  Metabolic Enzymes as an Anti-Cancer Drug Target</a>
+  <ul class="collapse">
+  <li><a href="#idh1-mutations" id="toc-idh1-mutations" class="nav-link" data-scroll-target="#idh1-mutations"><span class="toc-section-number">4.1.1</span>  IDH1 Mutations</a></li>
+  <li><a href="#what-does-idh1-do" id="toc-what-does-idh1-do" class="nav-link" data-scroll-target="#what-does-idh1-do"><span class="toc-section-number">4.1.2</span>  What Does IDH1 Do?</a></li>
+  <li><a href="#a-closer-look-at-mutant-and-wild-type-idh1" id="toc-a-closer-look-at-mutant-and-wild-type-idh1" class="nav-link" data-scroll-target="#a-closer-look-at-mutant-and-wild-type-idh1"><span class="toc-section-number">4.1.3</span>  A Closer Look at Mutant and Wild Type IDH1</a></li>
+  </ul></li>
+  <li><a href="#signalling-mechanisms" id="toc-signalling-mechanisms" class="nav-link" data-scroll-target="#signalling-mechanisms"><span class="toc-section-number">4.2</span>  Signalling Mechanisms</a>
+  <ul class="collapse">
+  <li><a href="#activating-g-proteins-via-gcprs" id="toc-activating-g-proteins-via-gcprs" class="nav-link" data-scroll-target="#activating-g-proteins-via-gcprs"><span class="toc-section-number">4.2.1</span>  Activating G-Proteins via GCPRs</a></li>
+  <li><a href="#activating-signalling-proteins-via-receptor-tyrosine-kinases" id="toc-activating-signalling-proteins-via-receptor-tyrosine-kinases" class="nav-link" data-scroll-target="#activating-signalling-proteins-via-receptor-tyrosine-kinases"><span class="toc-section-number">4.2.2</span>  Activating Signalling Proteins via Receptor Tyrosine Kinases</a></li>
+  </ul></li>
+  <li><a href="#the-ras-superfamily" id="toc-the-ras-superfamily" class="nav-link" data-scroll-target="#the-ras-superfamily"><span class="toc-section-number">4.3</span>  The Ras Superfamily</a>
+  <ul class="collapse">
+  <li><a href="#what-is-ras" id="toc-what-is-ras" class="nav-link" data-scroll-target="#what-is-ras"><span class="toc-section-number">4.3.1</span>  What is Ras?</a></li>
+  <li><a href="#activating-ras-via-rtks-and-gefs" id="toc-activating-ras-via-rtks-and-gefs" class="nav-link" data-scroll-target="#activating-ras-via-rtks-and-gefs"><span class="toc-section-number">4.3.2</span>  Activating Ras via RTKs and GEFs</a></li>
+  <li><a href="#activators-of-ras" id="toc-activators-of-ras" class="nav-link" data-scroll-target="#activators-of-ras"><span class="toc-section-number">4.3.3</span>  Activators of Ras</a></li>
+  <li><a href="#activating-ras-using-a-single-molecule" id="toc-activating-ras-using-a-single-molecule" class="nav-link" data-scroll-target="#activating-ras-using-a-single-molecule"><span class="toc-section-number">4.3.4</span>  Activating Ras Using a Single Molecule</a></li>
+  <li><a href="#how-do-ras-events-last-for-a-long-time" id="toc-how-do-ras-events-last-for-a-long-time" class="nav-link" data-scroll-target="#how-do-ras-events-last-for-a-long-time"><span class="toc-section-number">4.3.5</span>  How do Ras Events Last for a Long Time?</a></li>
+  <li><a href="#cancer-causing-effects-of-ras" id="toc-cancer-causing-effects-of-ras" class="nav-link" data-scroll-target="#cancer-causing-effects-of-ras"><span class="toc-section-number">4.3.6</span>  Cancer-Causing Effects of Ras</a></li>
+  <li><a href="#embedding-ras-into-the-cell-membranes" id="toc-embedding-ras-into-the-cell-membranes" class="nav-link" data-scroll-target="#embedding-ras-into-the-cell-membranes"><span class="toc-section-number">4.3.7</span>  Embedding Ras into the Cell Membranes</a></li>
+  <li><a href="#enzymatic-activity-of-ras" id="toc-enzymatic-activity-of-ras" class="nav-link" data-scroll-target="#enzymatic-activity-of-ras"><span class="toc-section-number">4.3.8</span>  Enzymatic Activity of Ras</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kevfo/BS4014_Notes/edit/main/chapters/week4.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kevfo/BS4014_Notes/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Cancer Cell Metabolism</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>In this week’s lecture, we study the relationship between the protein Ras and GTPases and also learn how Ras becomes activated to do its job. We also learn how Ras can cause cancer (i.e., how Ras can behave as a cancer promoter) and also how Ras looks like when stuck with GDP and GTP.</p>
+<section id="metabolic-enzymes-as-an-anti-cancer-drug-target" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="metabolic-enzymes-as-an-anti-cancer-drug-target"><span class="header-section-number">4.1</span> Metabolic Enzymes as an Anti-Cancer Drug Target</h2>
+<section id="idh1-mutations" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="idh1-mutations"><span class="header-section-number">4.1.1</span> IDH1 Mutations</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/r132h.png" class="img-fluid figure-img" width="432"></p>
+<p></p><figcaption class="figure-caption">Raw Data Illustrating the R132H Mutation</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>About 80% of grade II to III glioblastomas have a mutation in an enzyme called <strong>c</strong>ytosolic <strong>i</strong>socitrate <strong>d</strong>ehydrogenase <strong>1</strong> (i.e., <strong>IDH1</strong>). In this sort of mutation, an amino acid of the enzyme - Arginine 132 - gets mutated into histidine. This is called a <strong>R132H mutation</strong>.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/idh1.png" class="img-fluid figure-img" width="200"></p>
+<p></p><figcaption class="figure-caption">Visualization of IDH1 with a R132H Mutation</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This R132H mutation makes it so that part of IDH1 called <strong>ICT</strong> cannot make ionic bonds between itself and IDH1 (i.e., the enzyme itself).</p>
+</section>
+<section id="what-does-idh1-do" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="what-does-idh1-do"><span class="header-section-number">4.1.2</span> What Does IDH1 Do?</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/idh1_activity.png" class="img-fluid figure-img" width="232"></p>
+<p></p><figcaption class="figure-caption">Activity of the IDH1 Enzyme</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The normal or “wild type” form of IDH1 (or IDH2) help convert <strong>isocitrate</strong> - something made during the Krebs’ cycle - to something called <strong>alpha-ketoglutarate</strong> when it makes NADPH.</p>
+<p>When these enzymes are mutated, they take alpha-ketoglutarate and turn it into a cancer-causing agent called <strong>R-2-HG</strong> and also consume NADPH in the process. This “R-2-HG” then goes onto inhibit proteins that come from the alpha-KG-dependent dioxygenase family.</p>
+</section>
+<section id="a-closer-look-at-mutant-and-wild-type-idh1" class="level3" data-number="4.1.3">
+<h3 data-number="4.1.3" class="anchored" data-anchor-id="a-closer-look-at-mutant-and-wild-type-idh1"><span class="header-section-number">4.1.3</span> A Closer Look at Mutant and Wild Type IDH1</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/comp.png" class="img-fluid figure-img" width="369"></p>
+<p></p><figcaption class="figure-caption">Comparison Between the Wild Type and the Mutated Forms of IDH1</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>When IDH1 is mutated, it stays closed. This helps alpha-ketoglutarate bind to it as well.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/closeup.png" class="img-fluid figure-img" width="600"></p>
+<p></p><figcaption class="figure-caption">Close Comparison of IDH1’s Active Site in Wild Type and Mutated IDH1</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>If we take a closer look at the wild type IDH1’s active site (i.e., on the right), the 132<sup>nd</sup> arginine (i.e., R) residue behaves like a hinge that helps the protein to change between its active and inactive (i.e., closed) form.</p>
+<p>However, the R132H mutation makes it so that the protein wants to stay in a closed form, and this causes IDH1 to prefer binding to alpha-ketoglutarate and NADPH.</p>
+</section>
+</section>
+<section id="signalling-mechanisms" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="signalling-mechanisms"><span class="header-section-number">4.2</span> Signalling Mechanisms</h2>
+<section id="activating-g-proteins-via-gcprs" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="activating-g-proteins-via-gcprs"><span class="header-section-number">4.2.1</span> Activating G-Proteins via GCPRs</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/signalling.png" class="img-fluid figure-img" width="630"></p>
+<p></p><figcaption class="figure-caption">Activing a G Protein via a G-Protein Coupled Receptor</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>There are three steps:</p>
+<ol type="1">
+<li><p>A <strong>G protein</strong> - which is found in the cytoplasm - behaves like a sort of molecular switch. At this point, this switch is “off”.</p></li>
+<li><p>When a signalling molecule binds to the <strong>G</strong>-<strong>P</strong>rotein <strong>C</strong>oupled <strong>R</strong>eceptor (i.e., <strong>GCPR</strong>), this causes the GCPR to change shape and become activated.</p></li>
+<li><p>When something called <strong>GTP</strong> binds to the G protein, this causes the G protein to change shape (i.e., conformational change), and the <span class="math inline">\(\alpha\)</span> portion of the receptor disassociates from the receptor and a part of it called the <strong><span class="math inline">\(\beta\gamma\)</span> complex</strong>. This is what activates cellular responses.</p></li>
+</ol>
+</section>
+<section id="activating-signalling-proteins-via-receptor-tyrosine-kinases" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="activating-signalling-proteins-via-receptor-tyrosine-kinases"><span class="header-section-number">4.2.2</span> Activating Signalling Proteins via Receptor Tyrosine Kinases</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/rtks.png" class="img-fluid figure-img" width="639"></p>
+<p></p><figcaption class="figure-caption">Activation of Signalling Proteins via Activated Receptor Tyrosine Kinases</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>There are four steps:</p>
+<ol type="1">
+<li>The <strong>R</strong>eceptor <strong>T</strong>yrosine <strong>K</strong>inases (i.e., <strong>RTK</strong>) first appear as inactive, single units with a site for the ligands.</li>
+<li>When a signalling molecule binds to these sites, these RTKs then pair up or <strong>dimerzie</strong>.</li>
+<li>The kinase portions (i.e., domains) of the RTK pairs (i.e., dimers) then phosphorylate one another and boost each others’ activities. This phosphorylation affects other parts of the protein.</li>
+<li>These phosphorylated dimers then attract other signalling proteins and form a complex. This complex then helps send signals along multiple pathways.</li>
+</ol>
+</section>
+</section>
+<section id="the-ras-superfamily" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="the-ras-superfamily"><span class="header-section-number">4.3</span> The Ras Superfamily</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/ras.png" class="img-fluid figure-img" width="584"></p>
+<p></p><figcaption class="figure-caption">Members of the Ras Superfamily of Proteins</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This superfamily (i.e., really big family) of proteins has all sorts of single units of GTPases, and two proteins called <strong>Rho</strong> and <strong>Ras</strong> help relay signals from cell surface receptors by interacting with various other signalling proteins.</p>
+<p>The Ras protein helps affect things like cell proliferation, differentiation, and stopping Ras interactions with TRKs.</p>
+<section id="what-is-ras" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="what-is-ras"><span class="header-section-number">4.3.1</span> What is Ras?</h3>
+<p><strong>Ras</strong> is really a family of related proteins belonging to something called the small <strong>GTPase class</strong>, which play an important role in transmitting signals within cells, a process known as <strong>cellular signal transduction</strong>. When Ras receives incoming signals and is “switched on,” it activates other proteins, ultimately triggering genes responsible for cell growth, differentiation, and survival.</p>
+<p>Because of this, mutations in ras genes can lead to the production of permanently active Ras proteins, causing unintended and excessive signaling within the cell, even in the absence of incoming signals. Since these signals promote cell growth and division, this overactive Ras signaling can ultimately contribute to the development of cancer.</p>
+<p>In humans, there are three Ras genes: <strong>HRas</strong>, <strong>KRas</strong>, and <strong>NRas</strong>, and they are among the most common oncogenes found in human cancer. Mutations that result in the permanent activation of Ras are present in approximately 20% to 25% of all human tumors and can be as high as 90% in specific types of cancer.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/ras_events.png" class="img-fluid figure-img" width="658"></p>
+<p></p><figcaption class="figure-caption">Important Events in Ras Research</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/ras_events2.png" class="img-fluid figure-img" width="548"></p>
+<p></p><figcaption class="figure-caption">More Important Events in Ras Research</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Due to the significant role Ras plays in cancer development, researchers are exploring Ras inhibitors as potential treatments for cancer and other diseases characterized by Ras overexpression. These inhibitors aim to target and suppress the overactive Ras signaling that drives tumor growth.</p>
+</section>
+<section id="activating-ras-via-rtks-and-gefs" class="level3" data-number="4.3.2">
+<h3 data-number="4.3.2" class="anchored" data-anchor-id="activating-ras-via-rtks-and-gefs"><span class="header-section-number">4.3.2</span> Activating Ras via RTKs and GEFs</h3>
+<section id="evidence-from-the-drosophilia-eye" class="level4" data-number="4.3.2.1">
+<h4 data-number="4.3.2.1" class="anchored" data-anchor-id="evidence-from-the-drosophilia-eye"><span class="header-section-number">4.3.2.1</span> Evidence from the <em>Drosophilia</em> Eye</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/eyeball.png" class="img-fluid figure-img" width="222"></p>
+<p></p><figcaption class="figure-caption">Closeup of a <em>Drosophilia</em> Eye</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The <em>Drosophila</em> eye is a has about approximately 800 identical units. Each of these units has its own individual lens, which serves the purpose of focusing incoming light onto eight photoreceptor cells located at its base. This intricate organization allows for efficient light capture and perception within the Drosophila eye.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/eyecolor.png" class="img-fluid figure-img" width="158"></p>
+<p></p><figcaption class="figure-caption">Different Eye Colors in Mutant Fruit Flies</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The photoreceptor cell called <strong>R7</strong> is made for for detecting ultraviolet (UV) light nside a developing <em>Drosophila</em> eye. When this “R7” is absent, the fly loses its ability to see UV light, and this condition is referred to as <strong>Sevenless</strong> (i.e., <strong>Sev</strong>). The Sev gene encodes for an RTK, and mutations in this RTK gene block the development of R7. What’s weird is that in some flies, RTK remains functional, but R7 does not develop.</p>
+<p>Further investigations into these mutants revealed that they carry mutations in the ligand of Sev, called <strong>Bride-of-sevenless</strong> (i.e., <strong>Boss</strong>), which is made by another photoreceptor cell known as <strong>R8</strong>.</p>
+<p>Through genetic screening, researchers identified Ras as a component in the Sev signaling pathway. Mutations in either Sev or Ras resulted in the loss of R7. However, an important finding was that an overactive, mutated Ras could still induce the development of R7, even in the presence of mutations in Sev and Boss. This suggests that Ras acts downstream of Sev in the signaling pathway, and its activation in R7 precursor cells is both necessary and sufficient to trigger differentiate R7 photoreceptor cells.</p>
+</section>
+<section id="how-sevs-rtk-activates-ras-in-the-eye-of-a-fly" class="level4" data-number="4.3.2.2">
+<h4 data-number="4.3.2.2" class="anchored" data-anchor-id="how-sevs-rtk-activates-ras-in-the-eye-of-a-fly"><span class="header-section-number">4.3.2.2</span> How Sev’s RTK Activates Ras in the Eye of a Fly</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/rev.png" class="img-fluid figure-img" width="360"></p>
+<p></p><figcaption class="figure-caption">Activating Ras via the Rev Gene’s Encoded RTK</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>There are five steps:</p>
+<ol type="1">
+<li>The Boss protein that is carried on the surface of the R8 cell binds with <strong>Sev RTK</strong> - the RTK encoded by the Sev gene - on the R7 cell’s surface.</li>
+<li>This binding then triggers a protein called <strong>Drk</strong> to activate another protein called <strong>Ras-GEF (SOS)</strong>.</li>
+<li>This Drk protein also recognizes a specific phosphorylated tyrosine (i.e., <strong>pY</strong>) on the Sev RTK using its SH2 domain and interacts with Ras-GEF (SOS) through two SH3 domains.</li>
+<li>SOS activates the Ras protein by replacing GDP with GTP (in the Ras).</li>
+<li>The Ras is now ready to send off signals and set off a series of events inside the cell.</li>
+</ol>
+</section>
+</section>
+<section id="activators-of-ras" class="level3" data-number="4.3.3">
+<h3 data-number="4.3.3" class="anchored" data-anchor-id="activators-of-ras"><span class="header-section-number">4.3.3</span> Activators of Ras</h3>
+<p>In mammals, RTKs can bind to Ras through an adaptor protein called <strong>Grb2</strong>, and this causes Ras to be activated.</p>
+<p>Though, in some cases, the GEF of Ras can be activated even without needing RTKs. For example, this GEF can be activated using Ca<sup>2+</sup> ions and something else called <strong>diacylglycerol</strong> - these two things help G-protein-linked receptors and activate Ras</p>
+</section>
+<section id="activating-ras-using-a-single-molecule" class="level3" data-number="4.3.4">
+<h3 data-number="4.3.4" class="anchored" data-anchor-id="activating-ras-using-a-single-molecule"><span class="header-section-number">4.3.4</span> Activating Ras Using a Single Molecule</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/fret.png" class="img-fluid figure-img" width="338"></p>
+<p></p><figcaption class="figure-caption">Activating Ras Using a Single Molecule</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>In this experiment, the Ras protein is has a <strong>y</strong>ellow <strong>f</strong>lourescent <strong>p</strong>rotein (i.e., <strong>YFP</strong>) attached to it, and GTP molecules that have been attached to <strong>r</strong>ed <strong>f</strong>lourescent <strong>p</strong>roteins (i.e., <strong>RFPs</strong>). The Ras was activated by the GTPs, and the YFP that was atttached to it was also activated (i.e., it is activated at wavelengths of 476 nm and emits light at 528 nm). On the other hand, the RFP emits light at about 617 nm.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/fretplot.png" class="img-fluid figure-img" width="212"></p>
+<p></p><figcaption class="figure-caption">FRET Plot</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>As we can see from the above plot, there’s a peak at somewhere around 3 to 4 minutes and the Ras was activated at around 30 seconds.</p>
+</section>
+<section id="how-do-ras-events-last-for-a-long-time" class="level3" data-number="4.3.5">
+<h3 data-number="4.3.5" class="anchored" data-anchor-id="how-do-ras-events-last-for-a-long-time"><span class="header-section-number">4.3.5</span> How do Ras Events Last for a Long Time?</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/ras_loving.png" class="img-fluid figure-img" width="268"></p>
+<p></p><figcaption class="figure-caption">Prolonging Ras Signalling Effects</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Ras is inactivated when the GTP that was bound to it gets hydrolyzed or turned into GDP. In this sense, the initial signals that Ras sends out don’t last very long, but the signals that they send out do last for a long time.</p>
+<p>Something called a <strong>M</strong>itogen-<strong>A</strong>ctivated <strong>P</strong>rotein (i.e., <strong>MAP</strong>) module can form a group or module that is used in signalling in various events. When this “module” is active, the MAP kinase module then helps out by phosphorylating other proteins (including transcription regulators and other kinases as well).</p>
+</section>
+<section id="cancer-causing-effects-of-ras" class="level3" data-number="4.3.6">
+<h3 data-number="4.3.6" class="anchored" data-anchor-id="cancer-causing-effects-of-ras"><span class="header-section-number">4.3.6</span> Cancer-Causing Effects of Ras</h3>
+<p>When the DNA from a mutated Ras gene was put into a normal cell, researchers found that piece of DNA alone was not enough to make the cell cancerous. In fact, mutated and cancer-causing (i.e., oncogenic) Ras genes stop cell proliferation and don’t promote tumor formation. Though, what is interesting is that previously mutated cells (e.g., from viral proteins, carcinogens, and their like) could be made cancerous because of the mutated Ras gene.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/trans.png" class="img-fluid figure-img" width="216"></p>
+<p></p><figcaption class="figure-caption">Percentage of Tumor-Free Mice Over Time</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>In the above graph, oncogenic DNA was introduced into mice. The mice with one or two oncogenes (i.e., cancer-causing genes) developed cancer slower. On the other hand, introducing the <em>Myc</em> and the <em>Ras</em> oncogenes into the mice more than doubled the rate at which these mice came down with tumors.</p>
+</section>
+<section id="embedding-ras-into-the-cell-membranes" class="level3" data-number="4.3.7">
+<h3 data-number="4.3.7" class="anchored" data-anchor-id="embedding-ras-into-the-cell-membranes"><span class="header-section-number">4.3.7</span> Embedding Ras into the Cell Membranes</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/membrane.png" class="img-fluid figure-img" width="612"></p>
+<p></p><figcaption class="figure-caption">How Ras Gets Inserted into the Cell Membranes</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Something called <strong>farnesyl pyrophosphate</strong> (i.e., the stuff in orange in the above diagram) is attached to Ras that have been newly made in the cytoplasm by an enzyme called <strong>farnesyltransferase</strong> (i.e., <strong>Ftase</strong>).</p>
+<p>Another enzyme called <strong>palmitoyltransferase</strong> (i.e., <strong>PTase</strong>) then attaches something called <strong>palmitoyl</strong> to the C-ending of the Ras’ cysteine residue, and this keeps the Ras stable in the membrane.</p>
+</section>
+<section id="enzymatic-activity-of-ras" class="level3" data-number="4.3.8">
+<h3 data-number="4.3.8" class="anchored" data-anchor-id="enzymatic-activity-of-ras"><span class="header-section-number">4.3.8</span> Enzymatic Activity of Ras</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/enzymatic.png" class="img-fluid figure-img" width="628"></p>
+<p></p><figcaption class="figure-caption">Ras Going from its Active State to its Inactive State</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/rasactivity.png" class="img-fluid figure-img" width="216"></p>
+<p></p><figcaption class="figure-caption">Ras’ Enzyme Activity</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>There are four steps to this:</p>
+<ol type="1">
+<li>Ras takes a proton from a catalytic water molecule using its GTP molecule’s <span class="math inline">\(\gamma\)</span>-phosphate</li>
+<li>The above step results in a nucleophilic hydroxide ion that then attacks the GTP’s <span class="math inline">\(\gamma\)</span>-phosphate.</li>
+<li>This leads to the formation of an intermediate that has a sort of triangle pyramid shape.</li>
+<li>When GDP leaves in this reaction, this intermediate then decomposes down into GDP and phosphate.</li>
+</ol>
+<section id="going-from-gdp-ras-to-gtp-ras" class="level4" data-number="4.3.8.1">
+<h4 data-number="4.3.8.1" class="anchored" data-anchor-id="going-from-gdp-ras-to-gtp-ras"><span class="header-section-number">4.3.8.1</span> Going from GDP-Ras to GTP-Ras</h4>
+<p>We know that the Ras protein binds to something called the <strong>S</strong>on <strong>o</strong>f <strong>S</strong>evenless (i.e., <strong>SOS</strong>) without any nucleotides.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week4/rasras.png" class="img-fluid figure-img" width="602"></p>
+<p></p><figcaption class="figure-caption">Structure of the Ras-SOS Complex</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The Ras in the Ras-SOS complex is pretty much the same if you don’t mind the changes in the switches, the P-loop, and the Mg<sup>2+</sup> binding region. However, there is a helix called “H” in the above diagram that is inserted within the Ras in the Ras-SOS complex.</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/week3.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tumor Suppressor Gene Retinoblastoma (Rb)</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../tutorials/week2.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Origins of Cancer, Oncogenes, and Tumor Suppressor Genes</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
