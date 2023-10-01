@@ -1,0 +1,28 @@
+---
+title: "Git Basics"
+author: "Kevin"
+date: "`r Sys.Date()`"
+output: 
+  rmdformats::readthedown:
+    toc: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Welcome to this short and somewhat comprehensive document on how to get started with Git and GitHub!  
+
+## Why Learn Git?
+
+Try imagining this for a moment:
+
+You are a software developer working in a company whose developers - for some unconceivable reason - do not think to use Git or any other form of version control.  Because of this, everybody's code is stored in numerous script files that are all located on a shared Google Drive.
+
+Nevertheless, it's a new day at the office and one of your tasks for the day is to implement a new feature for an application that the software development team is currently working on.  You let you co-workers know about your plans - they acknowledge them and head off to the company's pantry for snacks and small talk while they wait for you to finish your work.  Because of your company's insistence on not using version control, only one person is able to edit the code at any one given moment as a result (which, in this case, just happens to be you).
+
+You are finally done with the new feature after a couple of hours' worth of coding and consulting Google for answers.  So, you head to the company's pantry where your co-workers are and let them know about this.  One of your other co-workers also needs to do something with the project's code and wastes no time getting to work.  Your earlier task took hours out of the work day and there's only five hours left before the day is officially over.
+
+However, when your co-worker works on the code, he accidentally overwrites a portion of your code that you had written earlier.  He is mortified, but manages to work up the courage to let you know about his mishap.  You then fix the code for him, but it's already 6:00 PM at this point and your coworker has still et to do what he had initially intended to do.  It's getting late and the other developers in the team also need to contribute their share of work to the project's code, but everybody becomes frustrated as only one person is able to work on the code at any one given moment.  Paul from two cubicles over has planned a date night with his wife and is silently fuming on the inside - not only is he going to be late for his date night, but he hasn't been able to do anything productive all day.
+
+Unsurprisingly, the project is slow to move along and your boss couldn't be any unhappier about the team's progress.  He believes that at the rate that the project is being completed, that all of you may as well just have not done anything at all. 

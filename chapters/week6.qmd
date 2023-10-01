@@ -1,0 +1,118 @@
+# The p53 Protein
+
+```{r echo = F, fig.cap = 'Many Actions of p53', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/stressor.png')
+```
+
+The thing about the p53 pathway is that it senses cell stress.  Whenever p53 finds that the cell in question is undergoing some sort of environmental stressor, it does one of many things.
+
+## Mode of Action of p53
+
+```{r echo = F, fig.cap = 'p53\'s Involvement in DNA Repair', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/dna_repiar.png')
+```
+
+If there's some sort of damage to the cell's DNA, what can happen is that kinases are recruited to the site of the damage and cause the cell cycle to pause for a moment.
+
+This cascade of events then results in the calling of p53 (and also stops the cell cycle).
+
+```{r echo = F, fig.cap = 'Excessive Mitogen Production Recruiting p53', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/mitogen.png')
+```
+
+Otherwise, if too many mitogens are being produced, then this can also recruit p53.
+
+So really, p53 regulates **apoptosis** - controlled cell death - by controlling important parts of both pathways inside and outside of the cell.  And in doing so, p53 also regulates the transcription of the following proteins - all of which paly a role in apoptosis:
+
+1.  Bid
+1.  Bax
+1.  puma
+1.  Bcl-2
+
+In all cases, the genes that encode for these proteins all have elements that are responsible for binding to p53.
+
+### Discovering the p53 Protein
+
+```{r echo = F, fig.cap = 'Raw Data Suggesting the Presence of p53', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/discovery.png')
+```
+
+```{r echo = F, fig.cap = 'Raw Data Suggesting the Presence of p53', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/discovery2.png')
+```
+
+p53 was originally found as a 53 kDa protein - it was the first "tumor suppressor" gene that was found within our cells.
+
+### Overexpression of p53 in Cells
+
+```{r echo = F, fig.cap = 'Raw Data Regarding the Over of p53', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/discovery3.png')
+```
+
+What scientists also found out was that this p53 protein - while not very abundant in normal cells - was over-expressed in cancerous and virus-infected cells.
+
+As an example, something called **F9 embryonal carcinoma cells** initially have high levels of p53. When these cells are exposed to retinoic acid and dibutyryl **cyclic adenosine 3',5'-phosphate** (i.e., **cAMP**), they change into endoderm-like cells with lower p53 levels. However, when these same cells are treated with something called **SV40**, their p53 levels increase again.
+
+### Regulating p53 Expression
+
+```{r echo = F, fig.cap = 'Pulse Chase Experiments of p53 Protein Stability', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/experiment.png')
+```
+
+There were five main steps to the pulse chase experiment:
+
+1.    Cells were labeled with 35S Methionine for 1 hour.
+1.    After labeling, cells were rinsed with medium containing an excess of non-radioactive Methionine.
+1.    Cells were then incubated at 37°C for a specified chase period.
+1.    Soluble proteins were extracted and subjected to immunoprecipitation using either normal mouse serum (N) or a Monoclonal Antibody (MAb) against p53 (I).
+1.    The proteins were separated using SDS-PAGE gel electrophoresis, and an autoradiogram was generated.
+
+In different experiments, scientists can find that the amount of p53, which is a important protein in our cells, can be controlled in two main ways: 
+
+First, it can be controlled by the amount of instructions (like a recipe) called p53 mRNA, or second, by how long the p53 protein stays in the cell before it's taken away. 
+
+This second part is managed by a process that carefully removes and recycles the p53 protein when it's not needed anymore. 
+
+### p53 in the Cell Cycle
+
+```{r echo = F, fig.cap = 'Levels of p53 and Other Proteins in Cells Over Time', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/cell_cycle.png')
+```
+
+In something known as a resting 3T3 cell culture, they triggered cell activity by adding serum, which stimulates DNA synthesis. They then collected cellular extracts at various time points to analyze proteins, mRNA, and DNA.
+
+Just before a cell goes into the S phase, the amount of p53 protein in the cell becomes 10 to 20 times more than usual. This increase happens in both early and late G1 phases of the cell cycle, and it matches the rise in the instructions (mRNA) for making p53 protein. So, when the cell is getting ready to copy its DNA, it produces a lot more p53 to help control the process.
+
+## Structure of Oncogenic p53
+
+```{r echo = F, fig.cap = 'Structure of the p53 Gene', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/p53.png')
+```
+
+In many types of human cancer, a lot of people have changes in a gene called p53. These changes can happen in different ways and places, depending on the kind of cancer and what might have caused it, like things from inside the body or outside. In cancers called carcinomas, most of the changes in p53 result in a protein that's not quite right because of misspellings (i.e., *missense mutations*) in the gene.
+
+Changes in the p53 gene that affect how it works can happen all over the gene, especially in the middle part that's very important and stays similar in different organisms. Other changes, like ones that make the protein shorter (i.e., *frameshift mutations*), usually happen in different parts of the gene. Also, it's important to know that some specific changes are more common in certain tissues of the body.
+
+In liver cancer, there's often a change in the p53 gene where a G becomes a T at a specific place called codon 249, turning an R into an S. Also, in various types of cancer, there are common changes in p53 at certain spots, like codons 175, 249, 273, and 282, which make up a big part of the mistakes in the gene. In skin cancer, sunlight can make two Cs turn into two Ts. And when people smoke cigarettes, it can lead to changes where G and C swap to T and A, which can happen in colon cancer.
+
+### Does p53 Cause Tumors?
+
+Short answer: yes.
+
+P53 is active in cancer cells and plays a role when cells are growing and multiplying. It also interacts with a protein called ras, which helps cells grow. Adding the p53 gene to cells can make them live longer, even forever. However, in some cases, like when mice get a virus that causes spleen tumors, the p53 gene can get mixed up and stop working correctly, which happens quite often.
+
+In the early experiments, the p53 genes that were first cloned had changes in them that made p53 work in a harmful way. These changes were found in a part of p53 that's really important for its shape and what it does in the cell. Later, in the late 1980s, more research showed that real, unchanged p53 actually helps stop tumors from forming, instead of causing them like an oncogene would.
+
+```{r echo = F, fig.cap = 'Transformation Experiments with p53 Genes and Other Genes', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/tumor_changing.png')
+```
+
+In the above experiment, rat fibroblast cells were given different versions of the p53 gene—normal p53, the cancer-causing ras gene, and a changed p53 called mutant p53 or p53-FS (frame shift). However, there wasn't any noticeable difference in the levels of ras or mutant p53. For some parts of the experiment, the results weren't determined (ND).
+
+## p53 and DNA Binding
+
+```{r echo = F, fig.cap = 'Construction of a DNA Construct in a p53 Experiment', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/dna_constructs.png')
+```
+
+

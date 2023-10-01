@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BS4014: Molecular Basis of Diseases - 7&nbsp; Origins of Cancer, Oncogenes, and Tumor Suppressor Genes</title>
+<title>BS4014: Molecular Basis of Diseases - 9&nbsp; Oncometabolites, Ras, and IDH</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../tutorials/week3.html" rel="next">
-<link href="../chapters/week6.html" rel="prev">
+<link href="../tutorials/week3.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -64,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script async="" src="https://hypothes.is/embed.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Origins of Cancer, Oncogenes, and Tumor Suppressor Genes</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Oncometabolites, Ras, and IDH</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -175,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tutorials/week2.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Origins of Cancer, Oncogenes, and Tumor Suppressor Genes</span></a>
+  <a href="../tutorials/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Origins of Cancer, Oncogenes, and Tumor Suppressor Genes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -185,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tutorials/week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Oncometabolites, Ras, and IDH</span></a>
+  <a href="../tutorials/week4.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Oncometabolites, Ras, and IDH</span></a>
   </div>
 </li>
       </ul>
@@ -199,21 +199,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#question-1" id="toc-question-1" class="nav-link active" data-scroll-target="#question-1"><span class="toc-section-number">7.1</span>  Question 1</a></li>
-  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2"><span class="toc-section-number">7.2</span>  Question 2</a></li>
-  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3"><span class="toc-section-number">7.3</span>  Question 3</a></li>
-  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4"><span class="toc-section-number">7.4</span>  Question 4</a></li>
-  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5"><span class="toc-section-number">7.5</span>  Question 5</a></li>
-  <li><a href="#question-6" id="toc-question-6" class="nav-link" data-scroll-target="#question-6"><span class="toc-section-number">7.6</span>  Question 6</a></li>
+  <li><a href="#question-1" id="toc-question-1" class="nav-link active" data-scroll-target="#question-1"><span class="toc-section-number">9.1</span>  Question 1</a></li>
+  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2"><span class="toc-section-number">9.2</span>  Question 2</a></li>
+  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3"><span class="toc-section-number">9.3</span>  Question 3</a></li>
+  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4"><span class="toc-section-number">9.4</span>  Question 4</a></li>
+  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5"><span class="toc-section-number">9.5</span>  Question 5</a></li>
+  <li><a href="#question-6" id="toc-question-6" class="nav-link" data-scroll-target="#question-6"><span class="toc-section-number">9.6</span>  Question 6</a></li>
+  <li><a href="#question-7" id="toc-question-7" class="nav-link" data-scroll-target="#question-7"><span class="toc-section-number">9.7</span>  Question 7</a></li>
+  <li><a href="#question-8" id="toc-question-8" class="nav-link" data-scroll-target="#question-8"><span class="toc-section-number">9.8</span>  Question 8</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kevfo/BS4014_Notes/edit/main/tutorials/week2.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kevfo/BS4014_Notes/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kevfo/BS4014_Notes/edit/main/tutorials/week4.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kevfo/BS4014_Notes/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Origins of Cancer, Oncogenes, and Tumor Suppressor Genes</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Oncometabolites, Ras, and IDH</span></h1>
 </div>
 
 
@@ -227,69 +229,83 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This week’s (i.e., week 2) tutorial contains six short-answer questions:</p>
-<section id="question-1" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="question-1"><span class="header-section-number">7.1</span> Question 1</h2>
+<section id="question-1" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="question-1"><span class="header-section-number">9.1</span> Question 1</h2>
 <blockquote class="blockquote">
-<p>What are some pieces of molecular evidence that lend support to the clonal origin of cancer?</p>
+<p>Explain the molecular basis of oncometabolite production from the R132H mutant of IDH1.</p>
 </blockquote>
-<p>The answer to this question can be found <a href="../chapters/week2.html#clonalevi">here</a>.</p>
-<p>Nonetheless, some evidence for the clonal origin of cancer are:</p>
+<p>The R132H mutant in isocitrate dehydrogenase-1 makes it so that IDH1 is unable to form ionic bonds between the ICT portion of itself and the rest of itself. Because of this, a substance called <span class="math inline">\(\alpha\)</span>-ketoglutarate is transformed into something called R-2-HG while also consuming NADPH that’s generated by wild type IDH1 (which takes <span class="math inline">\(\alpha\)</span>-ketoglutarate and transforms it into isocitrate and reduces NADP<sup>+</sup> to NADPH). This R-2-HG then goes to inhibit proteins that belong to the <span class="math inline">\(\alpha\)</span>-ketoglutarate dependent dioxygenase family of proteins.</p>
+<p>When an R132H mutation happens, this makes it so that IDH1’s closed form is continuously favored, hence R132H IDH1’s affinity for <span class="math inline">\(\alpha\)</span>-ketoglutarate and NADPH.</p>
+</section>
+<section id="question-2" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="question-2"><span class="header-section-number">9.2</span> Question 2</h2>
+<blockquote class="blockquote">
+<p>Explain the types of post translation modifications Ras protein undergoes. Why are these modifications necessary?</p>
+</blockquote>
+<p>There are several things that can happen with the Ras protein:</p>
 <ol type="1">
-<li><p><strong>Philadelphia chromosome in CML patients</strong></p>
-<p>Chronic Myelogenous Leukemia (i.e., CML) patients have a genetic mutation whereby the <em>abl</em> and the <em>bcr</em> gene on chromosomes 9 and 22 respectively are swapped (i.e., translocated). This event results in the creation of a modified chromosome 22 otherwise known as the <strong>Philadelphia chromosome</strong>. Nonetheless, this event also creates an abnormally active tyrosine kinase and ultimately, cancer.</p>
-<p>As cancerous cells in CML patients all have the Philadelphia chromosome, this suggests the cells are derived from an ancestor.</p></li>
-<li><p><strong>Random Inactivation of X Chromosomes</strong></p>
-<p>Random X chromosomes are inactivated during one’s lifetime. In tumor tissue, the cancerous cells have the same (in)activated X chromosomes, hinting that the cancerous cells must derived from a common ancestor.</p></li>
+<li><p><strong>Adding farnesyl pyrophosphate to Ras</strong></p>
+<p>This is a reaction catalyzed by an enzyme called farnesyltransferase (i.e., Ftase). This addition basically stabilizes Ras in the cell’s membranes.</p></li>
+<li><p><strong>Adding palmitoyl to the C-terminus of Ras’ cysteine residue</strong></p>
+<p>This is a reaction catalyzed by an emzyme called palmitoyltransferase - this basically also helps stabilize Ras in the cell’s membranes.</p></li>
+<li><p><strong>Phosphorylation</strong></p>
+<p>Phosphorylation makes it so that Ras is able to switch between its active and its inactive form.</p></li>
 </ol>
 </section>
-<section id="question-2" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="question-2"><span class="header-section-number">7.2</span> Question 2</h2>
+<section id="question-3" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="question-3"><span class="header-section-number">9.3</span> Question 3</h2>
 <blockquote class="blockquote">
-<p>What can one conclude from the observation that cancer progression is age dependent?</p>
+<p>Genetic studies on drosophila eye development have helped in establishing Ras signaling pathway. In a screening assay for R7 phenotype was appeared to identify two groups of flies; one group contains mutation in the boss gene (UV blind) whereas another group has mutation in ras gene, producing hyperactive Ras protein (not blind to UV). An FYP student became interested to examine these mutant flies whereby crossing was conducted between these groups.</p>
+<p>Explain the phenotype of R7 one may probably observed in the offspring flies.</p>
 </blockquote>
-<p>Cells accumulate a mutations over time that may cause them to grow uncontrollably and resist p53-mediated apoptosis or Rb activities. This is because one’s likelihood of developing cancer increases with age and cancer does not occur with a single mutation.</p>
-</section>
-<section id="question-3" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="question-3"><span class="header-section-number">7.3</span> Question 3</h2>
-<blockquote class="blockquote">
-<p>You karyotyped 11 tumor samples obtained from Tasmanian devils and found that the cancerous cells have similar genetic defects: 13 instead of 14 chromosomes, no sex chromosomes, a missing chromosome 2 and 6 pair, and so on.</p>
-<p>How do you think this cancer was transmitted? Could the cancer have been transmitted as a result of a virus or a microorganism?</p>
-<p>(hint: Tasmanian devils often fight by biting their opponent’s face and mouth. One of the Tasmanian devils also has an inversion on chromosome 5 that cannot be found in its facial tumor)</p>
-</blockquote>
-<p>The fact that the cancerous cells all share common feature hint to the clonal origin of cancer. We can deduce that the tumors all came from the same cancerous cell. A Tasmanian devil’s fighting style would likely inflict deep puncture wounds on their opponent - if the cancer were transmissible through bites (i.e., the cancerous cells could be transmitted via saliva), this could explain why the 11 Tasmanian devils karyotyped all have facial tumors with similar genetic abnormalities.</p>
-<p>The cancer <em>could</em> have been transmitted by a microorganism, but this is unlikely. At least in the context of this course, viral proteins can cause cancer by affecting E2F and Rb’s interaction, but not in this manner.</p>
-</section>
-<section id="question-4" class="level2" data-number="7.4">
-<h2 data-number="7.4" class="anchored" data-anchor-id="question-4"><span class="header-section-number">7.4</span> Question 4</h2>
-<blockquote class="blockquote">
-<p>Explain the leukaemogenic signalling of the Abl-Bcr protein</p>
-</blockquote>
-<p>The p120 Abl-Bcr fusion protein formed as a result of chromosomal translocation of the <em>abl</em> and the <em>bcr</em> gene on chromosomes 9 and 22 respectively is able to act as a kinase to phosphorylate other proteins, thereby leading to the activation or the inhibition of downstream targets that are involved in the cell cycle, DNA repair, and other key cellular processes.</p>
-</section>
-<section id="question-5" class="level2" data-number="7.5">
-<h2 data-number="7.5" class="anchored" data-anchor-id="question-5"><span class="header-section-number">7.5</span> Question 5</h2>
-<blockquote class="blockquote">
-<p>The <em>bcl-abr</em> fusion protein can be found at a very low level in the blood in about 30% of individuals, yet only a small percentage of that 30% actually develop CML.</p>
-<p>What are some reasons why this could happen?</p>
-</blockquote>
-<p>Some possible reasons include:</p>
+<p>There could be one of several outcomes. Granted - we don’t know the inheritance pattern of these mutations in the sev gene, but we can still guess several outcomes:</p>
 <ol type="1">
-<li><p><strong>Genetic and Lifestyle Factors</strong></p>
-<p>Some individuals may be prone to developing CML than others; furthermore, some individuals may also have been exposed to carcinogens in their everyday life (e.g., construction workers and abestos).</p></li>
-<li><p><strong>Individual Genetic Makeup</strong></p>
-<p>Everybody’s genome is unique and the sole presence of the <em>bcr-abl</em> fusion protein gene may not necessarily be enough to trigger CML in most individuals.</p></li>
-<li><p><strong>Cellular Context</strong></p>
-<p>As CML is a cancer of the blood cells, a <em>bcr-abl</em> gene in the genome of another kind of cell may not have the same effect.</p></li>
+<li><p><strong>The offspring are UV blind too</strong></p>
+<p>If the mutation for the R8 gene (which makes the BOSS protein) is autosomal dominant, this could very well overshadow the hyperactive sev gene mutation.</p>
+<p>Also, BOSS is crucial for proper functioning of the sev-TRK. Without BOSS, there wouldn’t be anything to induce the development of R7 photoreceptor cells.</p></li>
+<li><p><strong>The offspring have overactive Ras mutations, but this won’t affect vision per se</strong></p>
+<p>Researchers have already found out that an overactive Ras can still induce the development of the R7 photoreceptor cell even in the absence of the Sev gene or the BOSS protein.</p>
+<p>So, while the flies’ visions may be unaffected, an overactive Ras protein could still trigger unwanted downstream signalling in other pathways.</p></li>
 </ol>
 </section>
-<section id="question-6" class="level2" data-number="7.6">
-<h2 data-number="7.6" class="anchored" data-anchor-id="question-6"><span class="header-section-number">7.6</span> Question 6</h2>
+<section id="question-4" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="question-4"><span class="header-section-number">9.4</span> Question 4</h2>
 <blockquote class="blockquote">
-<p>Explain how Klein and Harris were able to discover the presence of tumor suppressor genes in the cell.</p>
+<p>“Describe an in vivo assay that can be used to detect time course of Ras activation.”</p>
 </blockquote>
-<p>Both researchers fused normal mice cells with cancerous ones, they found that the new cells made fewer tumors than the cancerous cells by themselves. So, there must be something in those normal cells that caused this behavior.</p>
-<p>When normal fibroblasts were fused with HeLa cells, they found that the new cells were cancerous. A closer look at those cells revealed that a missing chromosome 11 was what was causing the behavior, so this led to the hypothesis of a “stop cancer” gene on chromosome 11 - hence tumor supporessor genes.</p>
+<p>I would first covalently attach the fluorescent protein RFP to GTP molecules. I would then transfect these GTP molecules into cells with Ras that’s been covalently coupled with YFP (i.e., another fluorescent protein). I would then make a FRET plot when I introduce the GTP into the cell to measure the light intensity.</p>
+<p>The graph should go up before it comes down - kinda like a parabola. The width of the parabola is how long Ras activation lasts.</p>
+</section>
+<section id="question-5" class="level2" data-number="9.5">
+<h2 data-number="9.5" class="anchored" data-anchor-id="question-5"><span class="header-section-number">9.5</span> Question 5</h2>
+<blockquote class="blockquote">
+<p>How does GEF facilitate nucleotide exchange in Ras?</p>
+</blockquote>
+<p>GEF exchanges GDP in Ras for GTP, thereby also activating the Ras protein in the process.</p>
+<p>GEF basically interacts with inactive Ras through its inactive domain - this GEF and Ras-GDP (i.e., inactive Ras) complex is stable and induces a sort of conformational change, hence also increasing Ras’ affinity for GTP.</p>
+<p>GTP then binds to the nucleotide-binding pocket of Ras, GDP is released, and the GEF disassociates.</p>
+</section>
+<section id="question-6" class="level2" data-number="9.6">
+<h2 data-number="9.6" class="anchored" data-anchor-id="question-6"><span class="header-section-number">9.6</span> Question 6</h2>
+<blockquote class="blockquote">
+<p>Why is Ras a slow GTPase? How does GAP help in stimulating GTPase activity of Ras?</p>
+</blockquote>
+<p>Ras is slow because the rate of GTP hydrolysis in Ras isn’t very fast.</p>
+<p>However, GAP encourages GTP hydrolysis and hence inactivates the Ras protein. GAP induces a sort of conformational change in Ras such that GTP hydrolysis occurs easier.</p>
+</section>
+<section id="question-7" class="level2" data-number="9.7">
+<h2 data-number="9.7" class="anchored" data-anchor-id="question-7"><span class="header-section-number">9.7</span> Question 7</h2>
+<blockquote class="blockquote">
+<p>Explain molecular mechanism of G12R Ras in cancer.</p>
+</blockquote>
+<p>This is a mutated form of Ras that basically keeps it active all the time. In this form, glycine is replaced by arginine at position 12, and this prevents GTP hydrolysis. Because of this, Ras is allowed to activate downstream pathways - including those that are involved in cell growth, cell proliferation.</p>
+</section>
+<section id="question-8" class="level2" data-number="9.8">
+<h2 data-number="9.8" class="anchored" data-anchor-id="question-8"><span class="header-section-number">9.8</span> Question 8</h2>
+<blockquote class="blockquote">
+<p>Q61L mutant bind to GAP but still maintains oncogenic activity. Explain.</p>
+</blockquote>
+<p>This is because GTP hydrolysis is reduced - there’s a conformational form that prevents this from happening that well. Because of this, stuff like the MAPK, mTOR / PI3K / AKT pathways keep being activated.</p>
 
 
 </section>
@@ -508,14 +524,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/week6.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">The p53 Protein</span></span>
+      <a href="../tutorials/week3.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Retinoblastoma and Cancer Cell Metabolism</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../tutorials/week3.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Retinoblastoma and Cancer Cell Metabolism</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

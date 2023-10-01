@@ -14,9 +14,13 @@ book:
         - chapters/week2.qmd
         - chapters/week3.qmd
         - chapters/week4.qmd
+        - chapters/week5.qmd
+        - chapters/week6.qmd
     - part: "**PART II: TUTORIALS**"
       chapters:
         - tutorials/week2.qmd
+        - tutorials/week3.qmd
+        - tutorials/week4.qmd
   sharing: [twitter, facebook]
   page-navigation: true
   repo-url: https://github.com/kevfo/BS4014_Notes

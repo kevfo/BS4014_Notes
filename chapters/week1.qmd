@@ -83,7 +83,7 @@ The above figure outlines how behavioral changes in **Retinoblastoma** (i.e., **
 
 The end part of Rb - **RbC** - only connects to E2F when it's with another protein called **DP**.  When phosphate groups are added to RbC, Rb changes its shape - this causes E2F to not attach to a specific spot on Rb.
 
-### Reaction Cycle of Ras
+### Reaction Cycle of Ras {#rascycle}
 
 ```{r echo = FALSE, fig.align = 'center', fig.cap = 'Cycle of Ras Activation and Inactivation'}
 knitr::include_graphics("../imgs/week1/rasActivation.png")
