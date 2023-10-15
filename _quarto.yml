@@ -16,6 +16,7 @@ book:
         - chapters/week4.qmd
         - chapters/week5.qmd
         - chapters/week6.qmd
+        - chapters/week7.qmd
     - part: "**PART II: TUTORIALS**"
       chapters:
         - tutorials/week2.qmd

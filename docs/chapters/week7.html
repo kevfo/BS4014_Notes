@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.189">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>BS4014: Molecular Basis of Diseases - 7&nbsp; Amyloids and TTR</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../tutorials/week2.html" rel="next">
+<link href="../chapters/week6.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Amyloids and TTR</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">BS4014: Molecular Basis of Diseases</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/kevfo/BS4014_Notes" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+            <i class="bi bi-bi-twitter pe-1"></i>
+          Twitter
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+            <i class="bi bi-bi-facebook pe-1"></i>
+          Facebook
+          </a>
+        </li>
+    </ul>
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true"><strong>PART I: LECTURE NOTES</strong></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Course Concepts Overview</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Origin of Cancer and Proto-Oncogenes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week3.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tumor Suppressor Gene Retinoblastoma (Rb)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Cancer Cell Metabolism</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Anti-Ras Drugs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week6.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">The p53 Protein</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week7.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Amyloids and TTR</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true"><strong>PART II: TUTORIALS</strong></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Origins of Cancer, Oncogenes, and Tumor Suppressor Genes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/week3.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Retinoblastoma and Cancer Cell Metabolism</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tutorials/week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Oncometabolites, Ras, and IDH</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#protein-folding" id="toc-protein-folding" class="nav-link active" data-scroll-target="#protein-folding"><span class="toc-section-number">7.1</span>  Protein Folding</a>
+  <ul class="collapse">
+  <li><a href="#anfinsens-experiment" id="toc-anfinsens-experiment" class="nav-link" data-scroll-target="#anfinsens-experiment"><span class="toc-section-number">7.1.1</span>  Anfinsen’s Experiment</a></li>
+  <li><a href="#funnel-shaped-energy-landscape" id="toc-funnel-shaped-energy-landscape" class="nav-link" data-scroll-target="#funnel-shaped-energy-landscape"><span class="toc-section-number">7.1.2</span>  Funnel-Shaped Energy Landscape</a></li>
+  <li><a href="#in-vivo-folding" id="toc-in-vivo-folding" class="nav-link" data-scroll-target="#in-vivo-folding"><span class="toc-section-number">7.1.3</span>  <em>In Vivo</em> Folding</a></li>
+  <li><a href="#protein-quality-control-in-cells" id="toc-protein-quality-control-in-cells" class="nav-link" data-scroll-target="#protein-quality-control-in-cells"><span class="toc-section-number">7.1.4</span>  Protein Quality Control in Cells</a></li>
+  </ul></li>
+  <li><a href="#amyloids" id="toc-amyloids" class="nav-link" data-scroll-target="#amyloids"><span class="toc-section-number">7.2</span>  Amyloids</a>
+  <ul class="collapse">
+  <li><a href="#physical-characteristics-of-amyloids" id="toc-physical-characteristics-of-amyloids" class="nav-link" data-scroll-target="#physical-characteristics-of-amyloids"><span class="toc-section-number">7.2.1</span>  Physical Characteristics of Amyloids</a></li>
+  <li><a href="#amyloid-folding-in-vivo" id="toc-amyloid-folding-in-vivo" class="nav-link" data-scroll-target="#amyloid-folding-in-vivo"><span class="toc-section-number">7.2.2</span>  Amyloid Folding <em>in vivo</em></a></li>
+  <li><a href="#amyloid-diseases-in-a-nutshell" id="toc-amyloid-diseases-in-a-nutshell" class="nav-link" data-scroll-target="#amyloid-diseases-in-a-nutshell"><span class="toc-section-number">7.2.3</span>  Amyloid Diseases in a Nutshell</a></li>
+  </ul></li>
+  <li><a href="#transthyretin-i.e.-ttr-amyloidoses" id="toc-transthyretin-i.e.-ttr-amyloidoses" class="nav-link" data-scroll-target="#transthyretin-i.e.-ttr-amyloidoses"><span class="toc-section-number">7.3</span>  Transthyretin (i.e., TTR) Amyloidoses</a>
+  <ul class="collapse">
+  <li><a href="#structure-of-ttr" id="toc-structure-of-ttr" class="nav-link" data-scroll-target="#structure-of-ttr"><span class="toc-section-number">7.3.1</span>  Structure of TTR</a></li>
+  <li><a href="#ttr-diseases" id="toc-ttr-diseases" class="nav-link" data-scroll-target="#ttr-diseases"><span class="toc-section-number">7.3.2</span>  TTR Diseases</a></li>
+  <li><a href="#mechanism-of-formation-for-ttr" id="toc-mechanism-of-formation-for-ttr" class="nav-link" data-scroll-target="#mechanism-of-formation-for-ttr"><span class="toc-section-number">7.3.3</span>  Mechanism of Formation for TTR</a></li>
+  <li><a href="#disassociation-pathways" id="toc-disassociation-pathways" class="nav-link" data-scroll-target="#disassociation-pathways"><span class="toc-section-number">7.3.4</span>  Disassociation Pathways</a></li>
+  <li><a href="#stability-of-ttr" id="toc-stability-of-ttr" class="nav-link" data-scroll-target="#stability-of-ttr"><span class="toc-section-number">7.3.5</span>  Stability of TTR</a></li>
+  </ul></li>
+  <li><a href="#ttr-drug-design-and-discovery" id="toc-ttr-drug-design-and-discovery" class="nav-link" data-scroll-target="#ttr-drug-design-and-discovery"><span class="toc-section-number">7.4</span>  TTR Drug Design and Discovery</a>
+  <ul class="collapse">
+  <li><a href="#challenges-regarding-ttr-drugs" id="toc-challenges-regarding-ttr-drugs" class="nav-link" data-scroll-target="#challenges-regarding-ttr-drugs"><span class="toc-section-number">7.4.1</span>  Challenges Regarding TTR Drugs</a></li>
+  <li><a href="#bivalent-drug-inhibitors" id="toc-bivalent-drug-inhibitors" class="nav-link" data-scroll-target="#bivalent-drug-inhibitors"><span class="toc-section-number">7.4.2</span>  Bivalent Drug Inhibitors</a></li>
+  <li><a href="#clinical-trials" id="toc-clinical-trials" class="nav-link" data-scroll-target="#clinical-trials"><span class="toc-section-number">7.4.3</span>  Clinical Trials</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kevfo/BS4014_Notes/edit/main/chapters/week7.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kevfo/BS4014_Notes/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Amyloids and TTR</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/central_dogma.png" class="img-fluid figure-img" width="468"></p>
+<p></p><figcaption class="figure-caption">Central Dogma in Biology</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The <strong>central dogma</strong> is a fundamental principle that describes the flow of genetic information in living organisms. It states that genetic information is transferred from DNA to RNA (transcription) and from RNA to proteins (translation).</p>
+<section id="protein-folding" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="protein-folding"><span class="header-section-number">7.1</span> Protein Folding</h2>
+<p>Let’s dive into a challenging question: How do proteins find their correct shapes? It’s a puzzle that scientists have been trying to solve.</p>
+<p>One idea to understand this process is to consider all the possible shapes a protein can take. But here’s where the problem gets interesting, and it’s called the <strong>Cyrus Levinthal Paradox</strong>, named after the scientist who first described it in 1969.</p>
+<p>Imagine a protein with n amino acid building blocks. Each of these amino acids can rotate around two special angles, <span class="math inline">\(\phi\)</span> and <span class="math inline">\(\psi\)</span>, giving us a total of <span class="math inline">\(2(n - 1)\)</span> possible angles to consider. And for each of these angles, there are three stable conformations: one called <strong>trans</strong> and two <strong>gauche</strong> positions.</p>
+<p>Now, if we attempt to explore all the possible conformations that this protein could take, we’d end up with an astronomically large number—around <span class="math inline">\(10^{(n-1)}\)</span> possible shapes! That’s a mind-boggling amount.</p>
+<p>Here’s the catch: if a protein could try out a new shape every <span class="math inline">\(10^{-13}\)</span> seconds (which is the rate at which single bonds reorient), it would take an incredibly long time to test all these possibilities. For instance, if we consider a protein with just 100 amino acids, it would take roughly <span class="math inline">\(10^{86}\)</span> seconds. To put that into perspective, the universe is around 20 billion years old, or about <span class="math inline">\(6 \times 10^{17}\)</span> seconds. So, the time required for a protein to explore all its possible shapes would be greater than the apparent age of the universe itself!</p>
+<p>This paradox tells us that proteins don’t search through all their possible shapes one by one. Instead, they seem to have a much faster and more efficient way of finding their correct, functional shapes. In fact, proteins in living organisms, like <em>E. coli</em>, can grow and fold into their shapes in mere minutes, which is a fascinating and efficient feat that continues to captivate scientists.</p>
+<section id="anfinsens-experiment" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="anfinsens-experiment"><span class="header-section-number">7.1.1</span> Anfinsen’s Experiment</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/anfinsen.png" class="img-fluid figure-img" width="518"></p>
+<p></p><figcaption class="figure-caption">Illustration of Anfinsen’s Experiment</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>In this Anfinsen’s experiment, scientists discovered that proteins have a remarkable ability to fold themselves into their natural shapes, all on their own, under normal, everyday conditions found in living organisms. It’s like a magic trick that happens inside our bodies.</p>
+<p>What’s even more mind-blowing is that the sequence of amino acids, which are like the building blocks of proteins, contains all the instructions needed to define the protein’s 3D structure. In simpler terms, the order of these amino acids acts like a blueprint for the protein’s final shape and, consequently, its job in the body.</p>
+<p>This discovery shed light on the fact that there are no mysterious, magical factors needed for proteins to fold correctly. Everything they need is right there in their genetic code. It’s like saying, “You have all the tools you need; now, go do your job.” This insight was groundbreaking and has deepened our understanding of how proteins function in our bodies.</p>
+</section>
+<section id="funnel-shaped-energy-landscape" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="funnel-shaped-energy-landscape"><span class="header-section-number">7.1.2</span> Funnel-Shaped Energy Landscape</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/funnel.png" class="img-fluid figure-img" width="330"></p>
+<p></p><figcaption class="figure-caption">Energy Funnel Landscape of Protein Folding</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Proteins start off with lots of potential shapes, like different paths down the sides of the funnel. But they all want to reach the same ultimate goal: their native state, a specific, energetically stable shape.</p>
+<p>Now, here’s where the action begins. In a refolding experiment, proteins have to make choices along the way. Think of these choices like deciding which route to take down the funnel. The key is to avoid getting stuck in local minima, which are like little pits or traps in the landscape. Proteins have to pick the smoothest, most energy-efficient path that leads them to their stable, native shape.</p>
+</section>
+<section id="in-vivo-folding" class="level3" data-number="7.1.3">
+<h3 data-number="7.1.3" class="anchored" data-anchor-id="in-vivo-folding"><span class="header-section-number">7.1.3</span> <em>In Vivo</em> Folding</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/invivo_folding.png" class="img-fluid figure-img" width="239"></p>
+<p></p><figcaption class="figure-caption"><em>In Vivo</em> Folding of Proteins</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The thing about protein folding in cells is that the process occurs in super cramped spaces.</p>
+<section id="in-bacteria" class="level4" data-number="7.1.3.1">
+<h4 data-number="7.1.3.1" class="anchored" data-anchor-id="in-bacteria"><span class="header-section-number">7.1.3.1</span> In Bacteria</h4>
+<p>Inside the cell, there’s a bit of a competition going on. The newborn protein, called a <strong>nascent chain</strong>, needs to find its way to the right shape. But sometimes, it can get distracted and form unproductive associations with other big molecules, like a player getting mixed up in the wrong team.</p>
+<p>This is where the group of proteins, known as <strong>Molecular Chaperones</strong>, steps in. They’re like the experienced guides who know the perfect trails to follow. Some of these chaperones have names like <strong>DnaK</strong>, <strong>DnaJ</strong>, <strong>GroEL</strong>, <strong>GroES</strong>, and <strong>Trigger Factor</strong>. They act as helpers, making sure the nascent chain takes the right path and doesn’t get lost in the bustling cell.</p>
+<p>These chaperones are like the heroes of protein folding, ensuring that the competition for productive folding doesn’t end in chaos. They guide the nascent chain to its correct, functional shape, making sure the protein is ready to do its job in the cell. It’s a remarkable teamwork process inside the microscopic world of bacteria.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/conformational_states.png" class="img-fluid figure-img" width="363"></p>
+<p></p><figcaption class="figure-caption">Conformational States of Folded Proteins</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>When a protein is made, it can go into one of several shapes.</p>
+</section>
+</section>
+<section id="protein-quality-control-in-cells" class="level3" data-number="7.1.4">
+<h3 data-number="7.1.4" class="anchored" data-anchor-id="protein-quality-control-in-cells"><span class="header-section-number">7.1.4</span> Protein Quality Control in Cells</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/inside_cells.png" class="img-fluid figure-img" width="354"></p>
+<p></p><figcaption class="figure-caption">Protein Synthesis Inside Cells</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>When new proteins are made, they’re like raw materials that need some work. So, these freshly synthesized protein chains are sent to a place in the cell called the <strong>endoplasmic reticulum (ER)</strong>. Here, they get a bit of a makeover, with modifications like glycosylation, and they’re also given a hand to fold into their proper, three-dimensional shape. This is where special proteins called <strong>molecular chaperones</strong> come into play. Think of them as the cell’s fashion designers, helping proteins look their best.</p>
+<p>Now, proteins that are correctly folded and ready for action get a one-way ticket to the <strong>Golgi complex</strong>. They’re wrapped up in membranes, kind of like a gift in a box, and delivered to where they’re needed in the cell.</p>
+<p>But, here’s where the plot thickens. If a protein is poorly folded or just not up to par, a quality control system springs into action. It detects these “problematic” proteins and decides they need more work. These proteins are not allowed to leave the ER but are sent down another path called the <strong>unfolded protein response</strong>. Here, they face a system that acts like a recycling center, using a process called <strong>ubiquitin-proteasome</strong> to break down and dispose of the proteins that didn’t quite make the cut.</p>
+</section>
+</section>
+<section id="amyloids" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="amyloids"><span class="header-section-number">7.2</span> Amyloids</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/amyloids_staining.png" class="img-fluid figure-img" width="281"></p>
+<p></p><figcaption class="figure-caption">Solutions Containing Stained Amyloids</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The term <strong>amyloids</strong> was coined by a scientist called Virchow because these substances could be found in certain abnormal tissues in the human body. What’s interesting is that when you add iodine and sulfuric acid to these tissues, they change color. It’s kind of like a chemical reaction that makes these tissues stain a certain way. This staining is similar to what happens in plants with something called starch.</p>
+<p>Another distinctive trait of amyloids is that they can bind to certain dyes, like Congo Red (CR), Thioflavin T (ThT), and Thioflavin S (ThS). It’s like they have a special affinity for these dyes, which can help scientists identify them. There’s also a protein called the <strong>serum amyloid P component (SAP)</strong> that’s associated with amyloids.</p>
+<section id="physical-characteristics-of-amyloids" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="physical-characteristics-of-amyloids"><span class="header-section-number">7.2.1</span> Physical Characteristics of Amyloids</h3>
+<p>Amyloids are like the rebels of the biological world because they’re insoluble under normal conditions inside a living organism. Imagine trying to dissolve a pebble in water; it just won’t work. However, under specific conditions with low ionic strength (a measure of salt concentration), they become a bit more cooperative, forming a gel-like suspension.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/viewing_amyloids.png" class="img-fluid figure-img" width="158"></p>
+<p></p><figcaption class="figure-caption">Viewing Amyloids Up Close</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>When amyloids deposit in the body, they don’t just sit there on their own. They’re like precious gems embedded within a rock, surrounded by other tissue components.</p>
+<p>What makes amyloids truly unique is their structure. They form long, non-branching fibrils, like tiny threads, that are about 7.5 to 10 nanometers in diameter and can be quite long, ranging from 3,000 to 100,000 nanometers. These fibrils aren’t solo actors; they develop from several intermediates or proto-fibrils, which have a special arrangement called <strong>cross <span class="math inline">\(\beta\)</span>-sheet structures</strong>.</p>
+<p>Amyloids are also known for their ability to trigger other substances to adopt the same misfolded structure, like a domino effect. This is called <strong>seeding and cross-seeding</strong>. It’s like one misfolded protein convincing others to join the misfolded club.</p>
+<p>In addition, amyloids are tough cookies. They’re resistant to being broken down by enzymes, a process called <strong>proteolysis</strong>, and they can withstand harsh conditions without losing their structure.</p>
+</section>
+<section id="amyloid-folding-in-vivo" class="level3" data-number="7.2.2">
+<h3 data-number="7.2.2" class="anchored" data-anchor-id="amyloid-folding-in-vivo"><span class="header-section-number">7.2.2</span> Amyloid Folding <em>in vivo</em></h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/folding_amyloids.png" class="img-fluid figure-img" width="188"></p>
+<p></p><figcaption class="figure-caption">Amyloid Folding Stages</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>One of the intriguing aspects of amyloid formation is that it can happen from both folded and unfolded precursor proteins. Imagine you have pieces of a puzzle, some neatly arranged, and some all mixed up. Both can lead to the creation of the final picture.</p>
+<p>Now, think of these precursor proteins as having different states. There’s the unfolded state (U), the intermediate state (I), and the native, or folded, state (N). These states are like different stages in solving the puzzle, from scattered pieces to a completed picture.</p>
+<p>What’s really interesting is that moving from one state to another isn’t as simple as just changing your mind. There’s a high energy barrier, like a big hill, that separates these states. Climbing this hill is tough work, and it’s not easy for the protein to transition from U to I or N.</p>
+<p>Under normal, physiological conditions, the <strong>native state (N)</strong> is the most stable and commonly populated state. It’s like the preferred arrangement of puzzle pieces. However, there’s another state, <strong>N*</strong>, which can exist as a result of the protein’s natural wiggles and jiggles, known as <strong>thermal fluctuations</strong>. This transition has a lower energy barrier, making it easier for the protein to explore different conformations, similar to how a puzzle piece might shift slightly as you’re working on it.</p>
+<section id="steps-in-amyloid-folding" class="level4" data-number="7.2.2.1">
+<h4 data-number="7.2.2.1" class="anchored" data-anchor-id="steps-in-amyloid-folding"><span class="header-section-number">7.2.2.1</span> Steps in Amyloid Folding</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/amyloid_folding.png" class="img-fluid figure-img" width="278"></p>
+<p></p><figcaption class="figure-caption">How Amyloids Fold in an Organism</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>At the start, when proteins begin to associate with each other, it’s not an easy task. The initial association events are unfavorable, like trying to bring together pieces of a puzzle that don’t quite fit. However, at some point, something special happens. We reach a critical size, often referred to as the <strong>nucleus</strong>. Once this nucleus is formed, further protein associations become much more favorable. It’s like finally finding the right piece of the puzzle that helps you build the rest of it effortlessly.</p>
+<p>Now, there’s another scenario where the initial association events are actually favorable. Here, proteins come together and form amorphous aggregates, often referred to as <strong>oligomers</strong>. These are like the starting points, but they’re not yet in their final, structured form. However, some of these oligomers of a certain size undergo conformational changes. It’s like pieces of the puzzle adjusting and snapping into place. These changes lead to the formation of amyloid seed fibrils, which then serve as the basis for more associations.</p>
+<p>In a different scenario, once the initial association events are favorable, it’s like the puzzle pieces fitting well right from the beginning. After the formation of the amyloidogenic monomer (a protein unit that’s ready for amyloid formation), the association steps become highly favorable, and there’s a low energy barrier. It’s like finding the right puzzle piece right away and smoothly connecting it to the rest of the puzzle.</p>
+</section>
+</section>
+<section id="amyloid-diseases-in-a-nutshell" class="level3" data-number="7.2.3">
+<h3 data-number="7.2.3" class="anchored" data-anchor-id="amyloid-diseases-in-a-nutshell"><span class="header-section-number">7.2.3</span> Amyloid Diseases in a Nutshell</h3>
+<p>First and foremost, aging is a major risk factor for both sporadic (not inherited) and inherited amyloid diseases. It’s like the clock is ticking, and as we get older, our risk of developing these diseases increases. One reason for this is that aging can lead to deficiencies in stress-responsive signaling, essentially disrupting the cell’s ability to manage protein balance, which is called <strong>proteostasis</strong>. When protein balance is compromised, tissues that can’t easily regenerate are particularly vulnerable.</p>
+<p>Now, let’s talk about mutations in amyloidogenic proteins. While not every amyloid disease is directly caused by mutations, they often play a role. Think of these mutations as puzzle pieces that make the puzzle-solving process more challenging. Mutations within these proteins can make them more prone to forming amyloids. They do this by destabilizing the normal, non-amyloidogenic state of the protein, pushing it towards partially folded states. In these partially folded states, certain amino acids become exposed and are more likely to trigger the formation of amyloids. This speeds up the process of tissue degeneration, especially in tissues that can’t renew themselves after damage.</p>
+</section>
+</section>
+<section id="transthyretin-i.e.-ttr-amyloidoses" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="transthyretin-i.e.-ttr-amyloidoses"><span class="header-section-number">7.3</span> Transthyretin (i.e., TTR) Amyloidoses</h2>
+<p>TTR, or transthyretin, is a blood protein that we can find in our bloodstream at a concentration of about 5 μM. This protein has a couple of important jobs. It transports retinol binding protein, which carries retinol, a form of vitamin A. TTR is like a reliable courier for these essential nutrients.</p>
+<p>But that’s not all. TTR also plays a role in carrying thyroxine (T4) in the blood of rodents, although its significance in humans is a bit different.</p>
+<p>In terms of its structure, TTR is made up of 127 amino acids, and it forms a tetramer under normal physiological conditions. This means it exists as a group of four TTR molecules bound together. In this form, it can carry two units of retinol binding protein. It’s like a teamwork arrangement, with each TTR tetramer carrying these valuable cargo units.</p>
+<p>However, sometimes things don’t go as planned. TTR can undergo misfolding outside of cells, and it assembles into various aggregated structures. These assemblies aren’t normal and lead to degenerative diseases. It’s like TTR taking a wrong turn and ending up causing trouble instead of smoothly transporting its cargo.</p>
+<section id="structure-of-ttr" class="level3" data-number="7.3.1">
+<h3 data-number="7.3.1" class="anchored" data-anchor-id="structure-of-ttr"><span class="header-section-number">7.3.1</span> Structure of TTR</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/structure_of_ttr.png" class="img-fluid figure-img" width="278"></p>
+<p></p><figcaption class="figure-caption">Structure of TTR</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Let’s explore the structure of transthyretin (TTR), the protein we just talked about. TTR’s structure is like a beautifully organized team, and understanding it can give us insights into how it functions.</p>
+<p>TTR forms a tetramer, which is a group of four TTR molecules that join together. Picture it like a tight-knit squad working together. This tetramer structure is folded in a way that features β-sheet structures, which are like specific patterns that the protein follows. Within this tetramer, there are four interfaces, or interaction points, among the subunits, keeping the team together.</p>
+<p>Now, TTR isn’t just hanging out on its own; it has a very important job of carrying <strong>thyroxine (T4)</strong> in the bloodstream. To do this, TTR interacts with T4 using specific amino acids, namely <strong>Glu54</strong> and <strong>Lys15</strong>. It’s like a carefully choreographed dance where TTR and T4 engage in a precise partnership.</p>
+<p>Within TTR, there’s a special spot called the <strong>T4 binding pocket</strong>. This pocket is both hydrophobic, meaning it repels water, and it has three pairs of hydrophobic regions. These regions are often referred to as the <strong>halogen binding pocket (HBP)</strong> because they are occupied by iodine atoms of T4. It’s like TTR’s way of securely holding T4 in place.</p>
+</section>
+<section id="ttr-diseases" class="level3" data-number="7.3.2">
+<h3 data-number="7.3.2" class="anchored" data-anchor-id="ttr-diseases"><span class="header-section-number">7.3.2</span> TTR Diseases</h3>
+<p>First, TTR amyloid diseases can be linked to changes or mutations in the TTR gene. In fact, more than 100 different point mutations have been identified. These mutations can be like a twist in the puzzle, making it more complex. But here’s the intriguing part: even the normal, or wild-type (WT), TTR can be involved in amyloid-related conditions. It’s not just about the mutations.</p>
+<p>When TTR amyloids deposit, they can be found both outside and within heart muscle cells, specifically cardiomyocytes. This deposition leads to a condition known as <strong>senile systemic amyloidosis (SAA)</strong>, which affects around 15% of men older than 80 and even some as young as 60. It’s like an unexpected challenge in the puzzle of aging.</p>
+<p>Now, the mutated forms of TTR are even more puzzling. These mutations can lead to various conditions, including familial amyloid polyneuropathy (FAP), familial amyloid cardiomyopathy (FAC), and central nervous system-selective amyloidoses (CNSA). It’s like having different versions of the puzzle, each with its unique set of challenges.</p>
+<p>Here’s the twist: mutant TTR proteins are often <strong>heterozygous</strong>, meaning they contain a mix of subunits from the normal, or wild-type, TTR and the mutant TTR. This mixture creates a unique environment that can lead to the early formation of amyloids in these conditions.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/point_mutations_ttr.png" class="img-fluid figure-img" width="509"></p>
+<p></p><figcaption class="figure-caption">Point Mutations in the TTR Protein</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>In L55P FAP, the onset of symptoms happens at a relatively early age, at around 20 years. It’s like the condition knocks on the door of the affected individuals when they’re young.</p>
+<p>On the other hand, there’s V30M FAP, which presents slightly later. In the Portuguese population, symptoms of V30M FAP typically become noticeable around the age of 30 years. It’s like this form of FAP chooses to reveal itself a bit later in life.</p>
+<p>These variations in the timing of symptom onset highlight the diversity and complexity of FAP. Understanding when and how different forms of the disease appear is crucial for diagnosis and management. It’s like piecing together a puzzle where the timing of symptom onset is one of the key pieces to consider.</p>
+</section>
+<section id="mechanism-of-formation-for-ttr" class="level3" data-number="7.3.3">
+<h3 data-number="7.3.3" class="anchored" data-anchor-id="mechanism-of-formation-for-ttr"><span class="header-section-number">7.3.3</span> Mechanism of Formation for TTR</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/ttr_3d.png" class="img-fluid figure-img" width="317"></p>
+<p></p><figcaption class="figure-caption">3D Structures of TTR</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>TTR is known for its tetrameric structure, which means it’s made up of four TTR molecules that come together. In this puzzle, the location of point mutations is crucial. These mutations influence the protein’s amyloidogenicity, or its ability to form amyloids, and also impact the type of disease that develops. It’s like specific pieces of the puzzle that significantly affect the final picture.</p>
+<p>One of the key mutations, <strong>V30M TTR</strong>, is located right in the hydrophobic core of the protein. This core is like the central part of the puzzle, and the V30M mutation directly impacts it. Another mutation, <strong>L55P</strong>, is found in a specific beta-strand of the protein. This strand is like one of the patterned pieces that makes up the overall puzzle.</p>
+<p>The <strong>V122I mutation</strong>, on the other hand, is close to the C terminus, which is like the end part of the puzzle, and it’s also located at the dimer-dimer interface, where two parts of the tetramer meet. This mutation can significantly affect the interaction between these subunits.</p>
+<p>And then there’s the <strong>T119M mutation</strong>, which is involved in stabilizing the quaternary structure, the overall arrangement of the tetramer. It’s like the glue that holds the pieces of the puzzle together. This mutation not only stabilizes the structure but also slows down the rate at which the tetramer falls apart.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/experimental_data.png" class="img-fluid figure-img" width="410"></p>
+<p></p><figcaption class="figure-caption">Experimental Data Regarding TTR Structure</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>First, we have the V30M and L55P variants of TTR, and they share a characteristic: they are less stable in their tetrameric states. It’s like these variants have some wobbly pieces, and the tetramer structure isn’t as secure as it should be. This reduced stability is a key factor in their amyloidogenicity, or their tendency to form amyloids.</p>
+<p>On the other hand, there’s the V122I TTR variant and the wild-type (WT) TTR. These two have a similar level of stability when it comes to their tetrameric states. It’s like they have strong, well-fitted puzzle pieces that keep their tetramer structures intact.</p>
+<p>Now, here’s the twist: the T119M variant of TTR is even more stable than the WT TTR. This is quite surprising because it’s like finding a puzzle piece that’s even more secure and robust than the original. This increased stability is particularly intriguing and could play a role in its unique properties.</p>
+<p>What’s perplexing about this puzzle of stability is that V30M and L55P, as well as V122I and WT TTR, show similar levels of stability despite being different variants. It’s like having two different-looking puzzle pieces that surprisingly fit together perfectly.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/trr_experimental_2.png" class="img-fluid figure-img" width="486"></p>
+<p></p><figcaption class="figure-caption">Experimental Data Regarding TTR Variants’ Pathogenicity</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Experimental data suggests that the L55P variant of TTR is the likeliest to cause disease. This variant folds 9.2 times faster than normal (i.e., wild type) TTR. Another variant to note is the V22I variant - this one folds about 3.6 times faster than wild type TTR.</p>
+</section>
+<section id="disassociation-pathways" class="level3" data-number="7.3.4">
+<h3 data-number="7.3.4" class="anchored" data-anchor-id="disassociation-pathways"><span class="header-section-number">7.3.4</span> Disassociation Pathways</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/ttr_disassociation.png" class="img-fluid figure-img" width="532"></p>
+<p></p><figcaption class="figure-caption">Mechanism of Disassociation Within TTR</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="stability-of-ttr" class="level3" data-number="7.3.5">
+<h3 data-number="7.3.5" class="anchored" data-anchor-id="stability-of-ttr"><span class="header-section-number">7.3.5</span> Stability of TTR</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/disassociation_experimental.png" class="img-fluid figure-img" width="569"></p>
+<p></p><figcaption class="figure-caption">Experimental Data Regarding Disassociation Pathway Among TTR</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>First things first, for TTR to turn into amyloids, it needs to go through a specific process. The initial step, which is often the slowest and rate-limiting, is the dissociation of the TTR tetramer. Imagine this as the moment when the four members of the tetramer go their separate ways, breaking apart from their close-knit group.</p>
+<p>Once this dissociation occurs, it sets the stage for the next phase of the cascade. The natively folded monomer, which is the individual unit of TTR in its normal, well-structured state, must undergo partial denaturation. Think of this as the monomer starting to lose its usual shape and structure, becoming “competent” to misassemble into various aggregate forms.</p>
+<p>These aggregates can take the form of oligomers, which are like smaller clusters, or they can evolve into the distinctive amyloid fibrils. It’s like the monomers going through a transformation, and depending on the conditions, they can become different types of structures, just like Lego pieces that can be assembled in various ways.</p>
+<p>Now, here’s the interesting part: certain molecules, like <strong>thyroxine (T4)</strong>, can stabilize the TTR tetramer. This stabilization prevents amyloidogenesis, which is the process of amyloid formation. It’s like T4 acting as a shield, making sure the tetramer stays intact and doesn’t break apart to start the cascade.</p>
+<section id="experimental-data" class="level4" data-number="7.3.5.1">
+<h4 data-number="7.3.5.1" class="anchored" data-anchor-id="experimental-data"><span class="header-section-number">7.3.5.1</span> Experimental Data</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/portuguese.png" class="img-fluid figure-img" width="382"></p>
+<p></p><figcaption class="figure-caption">Tetramer Formation in a Portuguese Family</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>A Portugueses family were found to have the V30M variant of TTR - a variant that can readily cause diseases in one of their alleles and the T119M variant in another allele (which is responsible for suppressing diseases).</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/t119m_mutant.png" class="img-fluid figure-img" width="629"></p>
+<p></p><figcaption class="figure-caption">Experimental Data Regarding T119M Mutant of TTR</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="ttr-drug-design-and-discovery" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="ttr-drug-design-and-discovery"><span class="header-section-number">7.4</span> TTR Drug Design and Discovery</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/ttr_drugs.png" class="img-fluid figure-img" width="330"></p>
+<p></p><figcaption class="figure-caption">Structure of TTR and Experimental Data Regarding Inhibition of T4</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>First, TTR has a unique ability to bind to two T4 hormone molecules at the dimer interface. Imagine this as a special receptor on TTR that can hold onto two T4 molecules simultaneously. It’s like TTR is acting as a double-handed catcher for T4.</p>
+<p>In our bloodstream, approximately 20-25% of the T4 is bound to TTR. The remaining 75% of T4 is bound to a different protein called globulin. This division of labor ensures that T4 is efficiently carried through the bloodstream. It’s like a team effort with both TTR and globulin playing a crucial role in transporting T4.</p>
+<p>Now, here’s where things get really interesting. When T4 binds to TTR, it has a unique effect. It reduces the dissociation of the TTR tetramer. In other words, it helps TTR stay together in its four-part structure. This is like a stabilizing force that ensures TTR doesn’t break apart easily.</p>
+<p>What’s particularly exciting is that the T4 binding sites on TTR are utilized in the design and discovery of drug molecules. Scientists leverage these sites to create drugs that can interact with TTR, either by mimicking the effects of T4 or by interfering with TTR’s functions. It’s like using the same key to unlock different doors in a complex building.</p>
+<section id="challenges-regarding-ttr-drugs" class="level3" data-number="7.4.1">
+<h3 data-number="7.4.1" class="anchored" data-anchor-id="challenges-regarding-ttr-drugs"><span class="header-section-number">7.4.1</span> Challenges Regarding TTR Drugs</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/drug_structures.png" class="img-fluid figure-img" width="334"></p>
+<p></p><figcaption class="figure-caption">TTR Drug Structures</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Developing drugs for TTR-related conditions is no simple task. One of the primary challenges is specificity. In our blood plasma, there are over 4000 different proteins, making it a crowded environment. Additionally, <strong>albumin</strong>, another protein in plasma, has a tendency to bind with many small molecules. So, any drug targeting TTR must be specific and not mistakenly interact with other proteins or receptors in the bloodstream. It’s like trying to single out one particular individual in a crowded room.</p>
+<p>Another critical consideration is that these drugs must not interfere with thyroid receptors. <strong>Thyroxine (T4)</strong>, the thyroid hormone, plays a vital role in our bodies, and drugs targeting TTR should not disrupt its function.</p>
+<p>Now, when it comes to designing drugs to prevent amyloid formation in TTR, scientists typically focus on <strong>small molecule ligands</strong>. These ligands often consist of two aromatic rings. These rings can be linked directly to each other (known as a biaryl) or separated by linkers of varying chemical structures. It’s like combining two important puzzle pieces.</p>
+<p>Here’s where it gets interesting: one of these aromatic rings is usually modified with a <strong>polar substituent</strong>, which means it has a part that’s attracted to water. The other ring often features halogenated substituents, alkyl groups, or sometimes a combination of these. It’s like having a special tool with a unique handle and head for a specific job.</p>
+<p>This specific design and structure of small molecule TTR ligands are crucial for their effectiveness in preventing amyloid formation. They act like keys that fit into TTR’s locks, stopping it from forming harmful amyloid structures.</p>
+</section>
+<section id="bivalent-drug-inhibitors" class="level3" data-number="7.4.2">
+<h3 data-number="7.4.2" class="anchored" data-anchor-id="bivalent-drug-inhibitors"><span class="header-section-number">7.4.2</span> Bivalent Drug Inhibitors</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/bivalent_drugs.png" class="img-fluid figure-img" width="300"></p>
+<p></p><figcaption class="figure-caption">Bivalent Inhibitors Against TTR</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Monovalent drug binding</strong> is like a handshake; it’s a bit more casual. In this approach, drugs have a weaker affinity for their target proteins. This means they are not as tightly bound and have a higher degree of freedom, similar to having more room to move around. However, this flexibility comes with a trade-off. Since the binding is weaker, drugs can be more easily displaced from the binding site, which is like letting go of the handshake.</p>
+<p>On the other hand, <strong>bivalent drug binding</strong> is more like a firm, unbreakable handshake. Here, drugs are linked together by a ‘rigid’ chemical linker. This linker can even have interactions with the proteins themselves. As a result, the affinity, or the strength of the bond, is much stronger. Drugs in a bivalent binding scenario have less degree of freedom, which means they are less likely to be displaced from the binding site. It’s like having a handshake that you can’t easily let go of.</p>
+<section id="bivalent-inhibitors" class="level4" data-number="7.4.2.1">
+<h4 data-number="7.4.2.1" class="anchored" data-anchor-id="bivalent-inhibitors"><span class="header-section-number">7.4.2.1</span> Bivalent Inhibitors</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/bivalent_inhibitors.png" class="img-fluid figure-img" width="389"></p>
+<p></p><figcaption class="figure-caption">Examples of Bivalent Inhibitors</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The thing about bivalent inhibitors is that their structures are linked through their phenol groups.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/raw_bivalent.png" class="img-fluid figure-img" width="527"></p>
+<p></p><figcaption class="figure-caption">Raw Data Regarding Bivalent Drug Binding</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="clinical-trials" class="level3" data-number="7.4.3">
+<h3 data-number="7.4.3" class="anchored" data-anchor-id="clinical-trials"><span class="header-section-number">7.4.3</span> Clinical Trials</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week7/fda_approved.png" class="img-fluid figure-img" width="626"></p>
+<p></p><figcaption class="figure-caption">Experimental Data Regarding FDA Approved Drugs</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The first drug, <strong>Diflunisal</strong>, is a derivative of salicylic acid and has properties that make it an analgesic (pain reliever) and anti-inflammatory agent. However, it’s also a cyclooxygenase inhibitor, which can potentially pose problems for TTR cardiomyopathy patients by impairing blood flow. It’s like a double-edged sword with both benefits and potential drawbacks.</p>
+<p>Diflunisal’s interaction with TTR is unique. It binds to TTR with negative cooperativity, which means that it has two binding constants (Kd1 and Kd2). The first binding constant (Kd1) is relatively strong at 75 nM, while the second one (Kd2) is weaker at 1100 nM. This dual interaction is like a handshake that starts strong and then loosens up a bit.</p>
+<p>While these drugs have only modest binding affinity to TTR and low selectivity among plasma proteins, they have some crucial advantages. They have high oral bioavailability, which means they can be taken by mouth and still effectively reach the bloodstream. Once in the bloodstream, they maintain high concentrations, which is like ensuring a steady supply of soldiers to guard against potential threats.</p>
+<p>The most exciting part is that these drugs have the ability to stabilize TTR and inhibit amyloid formation. It’s like having bodyguards that not only protect but also prevent trouble from happening in the first place.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/week6.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">The p53 Protein</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../tutorials/week2.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Origins of Cancer, Oncogenes, and Tumor Suppressor Genes</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
