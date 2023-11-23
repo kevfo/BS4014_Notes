@@ -4,7 +4,7 @@
 knitr::include_graphics('../imgs/week6/stressor.png')
 ```
 
-The thing about the p53 pathway is that it senses cell stress.  Whenever p53 finds that the cell in question is undergoing some sort of environmental stressor, it does one of many things.
+The thing about the p53 pathway is that it senses cell stress. Whenever p53 finds that the cell in question is undergoing some sort of environmental stressor, it does one of many things.
 
 ## Mode of Action of p53
 
@@ -22,12 +22,12 @@ knitr::include_graphics('../imgs/week6/mitogen.png')
 
 Otherwise, if too many mitogens are being produced, then this can also recruit p53.
 
-So really, p53 regulates **apoptosis** - controlled cell death - by controlling important parts of both pathways inside and outside of the cell.  And in doing so, p53 also regulates the transcription of the following proteins - all of which paly a role in apoptosis:
+So really, p53 regulates **apoptosis** - controlled cell death - by controlling important parts of both pathways inside and outside of the cell. And in doing so, p53 also regulates the transcription of the following proteins - all of which paly a role in apoptosis:
 
 1.  Bid
-1.  Bax
-1.  puma
-1.  Bcl-2
+2.  Bax
+3.  puma
+4.  Bcl-2
 
 In all cases, the genes that encode for these proteins all have elements that are responsible for binding to p53.
 
@@ -61,17 +61,17 @@ knitr::include_graphics('../imgs/week6/experiment.png')
 
 There were five main steps to the pulse chase experiment:
 
-1.    Cells were labeled with 35S Methionine for 1 hour.
-1.    After labeling, cells were rinsed with medium containing an excess of non-radioactive Methionine.
-1.    Cells were then incubated at 37°C for a specified chase period.
-1.    Soluble proteins were extracted and subjected to immunoprecipitation using either normal mouse serum (N) or a Monoclonal Antibody (MAb) against p53 (I).
-1.    The proteins were separated using SDS-PAGE gel electrophoresis, and an autoradiogram was generated.
+1.  Cells were labeled with 35S Methionine for 1 hour.
+2.  After labeling, cells were rinsed with medium containing an excess of non-radioactive Methionine.
+3.  Cells were then incubated at 37°C for a specified chase period.
+4.  Soluble proteins were extracted and subjected to immunoprecipitation using either normal mouse serum (N) or a Monoclonal Antibody (MAb) against p53 (I).
+5.  The proteins were separated using SDS-PAGE gel electrophoresis, and an autoradiogram was generated.
 
-In different experiments, scientists can find that the amount of p53, which is a important protein in our cells, can be controlled in two main ways: 
+In different experiments, scientists can find that the amount of p53, which is a important protein in our cells, can be controlled in two main ways:
 
-First, it can be controlled by the amount of instructions (like a recipe) called p53 mRNA, or second, by how long the p53 protein stays in the cell before it's taken away. 
+First, it can be controlled by the amount of instructions (like a recipe) called p53 mRNA, or second, by how long the p53 protein stays in the cell before it's taken away.
 
-This second part is managed by a process that carefully removes and recycles the p53 protein when it's not needed anymore. 
+This second part is managed by a process that carefully removes and recycles the p53 protein when it's not needed anymore.
 
 ### p53 in the Cell Cycle
 
@@ -99,7 +99,7 @@ In liver cancer, there's often a change in the p53 gene where a G becomes a T at
 
 Short answer: yes.
 
-P53 is active in cancer cells and plays a role when cells are growing and multiplying. It also interacts with a protein called ras, which helps cells grow. Adding the p53 gene to cells can make them live longer, even forever. However, in some cases, like when mice get a virus that causes spleen tumors, the p53 gene can get mixed up and stop working correctly, which happens quite often.
+P53 is active in cancer cells and plays a role when cells are growing and multiplying. It also interacts with a protein called **Ras**, which helps cells grow. Adding the p53 gene to cells can make them live longer, even forever. However, in some cases, like when mice get a virus that causes spleen tumors, the p53 gene can get mixed up and stop working correctly, which happens quite often.
 
 In the early experiments, the p53 genes that were first cloned had changes in them that made p53 work in a harmful way. These changes were found in a part of p53 that's really important for its shape and what it does in the cell. Later, in the late 1980s, more research showed that real, unchanged p53 actually helps stop tumors from forming, instead of causing them like an oncogene would.
 
@@ -107,12 +107,201 @@ In the early experiments, the p53 genes that were first cloned had changes in th
 knitr::include_graphics('../imgs/week6/tumor_changing.png')
 ```
 
-In the above experiment, rat fibroblast cells were given different versions of the p53 gene—normal p53, the cancer-causing ras gene, and a changed p53 called mutant p53 or p53-FS (frame shift). However, there wasn't any noticeable difference in the levels of ras or mutant p53. For some parts of the experiment, the results weren't determined (ND).
+In the above experiment, rat fibroblast cells were given different versions of the p53 gene---normal p53, the cancer-causing ras gene, and a changed p53 called mutant p53 or p53-FS (frame shift). However, there wasn't any noticeable difference in the levels of ras or mutant p53. For some parts of the experiment, the results weren't determined (ND).
 
 ## p53 and DNA Binding
+
+### p53 as a Sequence Specific Transactivator
 
 ```{r echo = F, fig.cap = 'Construction of a DNA Construct in a p53 Experiment', fig.align = 'center'}
 knitr::include_graphics('../imgs/week6/dna_constructs.png')
 ```
 
+Researchers introduced a plasmid into HeLa cells as part of their experiment. **Plasmids** are small, circular pieces of DNA that scientists use to carry specific genes and manipulate them in cells. In this case, the scientists wanted to see what happens when a particular plasmid was added to HeLa cells.
 
+To understand the results of their experiment, they measured the activity of an enzyme called **CAT**. Enzymes are like tiny machines that help with chemical reactions in cells. To do this, they used a special molecule called [14C] chloramphenicol. This molecule was transformed into two different forms: acetyl and diacetyl chloramphenicol, due to the action of the CAT enzyme. This allowed the scientists to see how active the CAT enzyme was in the HeLa cells and if it was changing the [14C] chloramphenicol.
+
+Another part of their experiment involved something called the N-terminus domain of the p53 transactivator. The p53 protein is like a supervisor in the cell, making sure everything is working correctly. The N-terminus domain is a specific part of the p53 protein. The scientists were interested in how this domain was involved in the cell's activities and whether it played a role in the changes they observed when they added the plasmid to the HeLa cells.
+
+### p53 in Binding to DNA
+
+```{r echo = F, fig.cap = 'Experimental Data Regarding DNA Binding', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/p53_mutations.png')
+knitr::include_graphics('../imgs/week6/dna_binding.png')
+```
+
+In this experiment, scientists were studying a protein called p53, specifically the "p53 WT" and a mutant version of p53, known as "Mutant p53 (273his)." These proteins are like the guards of our genetic information, and they can interact with DNA, which contains our genetic instructions.
+
+The scientists found that "p53 WT" can attach itself to DNA, meaning it can bind to it. This is an important function because it helps in regulating and protecting our genetic material. On the other hand, the "Mutant p53 (273his)" couldn't do this – it couldn't bind to DNA like the normal, healthy version of p53.
+
+To figure out where these proteins attach to DNA, the scientists used a technique involving human DNA fragments. They used special scissors-like molecules called restriction enzymes to cut the DNA into smaller pieces. These enzymes are like molecular scissors that chop the DNA into manageable sections. Then, they tagged these DNA pieces with a radioactive label called "32P." This radioactive label helped the scientists track and locate the DNA pieces that p53 could bind to.
+
+### Gene Expression Under p53's Influence
+
+To understand how the p53 protein interacts with DNA and influences gene expression, scientists conducted an experiment. They wanted to see what's needed for p53 to bind to DNA and activate the expression of specific genes.
+
+```{r echo = F, fig.cap = 'Different Types of Expression Plasmids', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/expression_profiles.png')
+```
+
+First, they used something called "**expression plasmids**." Plasmids are like tiny vehicles that carry genes into cells. In this case, they carried the p53 gene and another gene called a "reporter gene." The reporter gene is like a marker that helps scientists see if a gene is turned on or off. By using these plasmids, the researchers aimed to test whether p53 could directly activate gene expression through its interaction with DNA.
+
+In their experiment, they wanted to find out if p53 had a specific spot on the DNA, which we can call a "DNA binding site," that allowed it to control gene activity. They also wanted to see if altered or "mutated" forms of p53 could interfere with this activation. Mutated forms of proteins have changes in their structure, which can affect how they work.
+
+```{r echo = F, fig.cap = 'Banding Profile of Several Pg Repeats', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/pg_repeats.png')
+```
+
+In this experiment, scientists were investigating how the p53 protein interacts with DNA and influences gene expression. They used a process called "gene expression in DNA binding of p53" to understand this.
+
+First, they took the p53 protein and mixed it with DNA that had a special radioactive label, which is referred to as "32P labeled PGn repeats." This label allowed them to track and locate where the p53 protein was binding to the DNA. To confirm that p53 was indeed binding to the DNA, they used an "Ab-p53," which is short for "antibody to p53," to detect the presence of p53 on the DNA.
+
+The experiment involved different lanes on a gel, and each lane showed something specific. In "Lane C," they had a control sample, which contained DNA labeled with 32P. This served as a reference to compare with the other lanes.
+
+In "Lane B," they had DNA that had bound to the p53 protein and was recovered from the complex they formed. This helped them confirm that p53 was indeed binding to the DNA.
+
+### Mutations in p53 and DNA Binding
+
+```{r echo = F, fig.cap = 'Experimental Data Regarding Mutant p53 Binding to DNA', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/mutant_p53s.png')
+```
+
+There are several key takeaways regarding the above barplot:
+
+1.  Wild type p53 were used to create the barplot.  The data in lanes 1 and 10 use wild type p53, but lane 10 uses double the amount of wild type p53.
+1.  Lanes 2, 4, 6, and 8 all have wild type and mutant p53.  There is an equal amount of wild type and mutant p53 in the plasmids used to make these lanes.
+1.  Lanes 3, 5 ,7, and 9 also have wild type and mutant p53, but there is double the amount of mutant p53 than wild type p53 in the plasmids.
+
+### Consensus Sequence
+
+```{r echo = F, fig.cap = 'Domain Structure of p53', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/domain_structure.png')
+```
+
+This sequence is: RRRCWWGYYY.  This sequence is has a 0 to 13 base pair gap another copy of itself.  The p53 protein basically forms a four-part complex (i.e., tetrameric complex) with DNA whenever it binds.
+
+### How does p53 Interact with DNA?
+
+```{r echo = F, fig.cap = 'p53 Binding to DNA Mechanism', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/binding_to_dna.png')
+```
+
+This explanation outlines a model that helps us understand how p53, a crucial protein in our cells, interacts with specific DNA sequences. This interaction is essential for regulating gene expression and maintaining our genetic information.
+
+In this model, the "cylinders" located under the DNA-binding parts of p53 represent certain regions of the p53 protein. These regions are called "**loop-sheet helix regions**," and they play a significant role in making specific connections with the building blocks of DNA within what we call the "**major grooves**" of a specific DNA site. Think of these "major grooves" as like the spaces between the rungs of a ladder where p53 can grab onto the DNA.
+
+The "arrows" in the model show us how the central, round parts of the p53 protein (known as the "globular p53 core DNA-binding domains") are oriented concerning the repeated DNA sequences they interact with. These repeated DNA sequences are 10 base pairs long, and they have a particular pattern: "5'-PuPuPuC(A/T)(T/A)GPyPyPy-3'." Each of these 10-base-pair sequences can be separated by varying amounts of DNA, anywhere from none to 13 base pairs.
+
+The key point here is that each "quarter site" within these 10-base-pair sequences can attach itself to one part of the p53 protein, forming a complex. This model helps us visualize how p53 binds to specific DNA sequences, which is crucial for controlling gene activity and making sure our genetic instructions are followed correctly.
+
+### Domain Organization of p53 and Ocurrence of Cancers
+
+```{r echo = F, fig.cap = 'Domain Organization', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/domain_organization.png')
+```
+
+### p53-DNA Complex
+
+In this scientific study, researchers examined the three-dimensional structure of a complex formed between the p53 protein and DNA. This complex is essential for understanding how p53 influences the expression of genes, which are the instructions for making proteins in our bodies.
+
+```{r echo = F, fig.cap = 'p53 and DNA Complex Structure', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/p53complex.png')
+```
+
+The crystal structure of this complex revealed some important details. The "core domain" of the p53 protein primarily attaches itself to a specific sequence of DNA, which is called a "pentamer consensus sequence." This sequence is made up of five DNA building blocks (pentamer) and has a specific pattern: "PuPuPuC(A/T)-(T/A)G." The core domain of p53 interacts extensively with the bases and phosphate groups of this DNA sequence.
+
+What's interesting is that not only does the core domain attach to this specific pentamer consensus sequence, but it also connects with base pairs that are located outside of this pentamer sequence. This suggests that not just one pentamer, but part of another pentamer (the adjacent one) is also needed for the binding to occur.
+
+```{r echo = F, fig.cap = 'More Information about p53 and DNA\'s Binding Site', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/binding2.png')
+```
+
+In this description, scientists are talking about how specific parts of the p53 protein interact with DNA, which is crucial for controlling gene expression and maintaining our genetic information.
+
+First, they mention "R248," which is a specific region of the p53 protein. R248 is known to attach itself to the "minor groove" of DNA. The minor groove is like a narrow space in the DNA's structure. R248 interacts with a specific DNA sequence that is rich in "AT" base pairs. Additionally, it forms what are called "salt bridges" with the sugar-phosphate backbone of the DNA. Think of these salt bridges as molecular connections that help hold the p53 protein in place on the DNA.
+
+Next, they discuss "R273," another part of the p53 protein. R273 binds to the "major groove" of DNA, which is a larger space in the DNA's structure compared to the minor groove. Like R248, R273 also forms salt bridges with the sugar-phosphate backbone of the DNA. These connections help anchor the p53 protein in its place on the DNA.
+
+In addition to these DNA interactions, R273 is also involved in other interactions within the p53 protein itself. For example, it forms a salt bridge with a molecule called "Asp." These interactions are important because they help p53 function correctly in regulating gene expression and other cellular processes.
+
+```{r echo = F, fig.cap = 'G245 is Necessary for Loop Conformation', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/g245.png')
+```
+
+```{r echo = F, fig.cap = 'Effects of Mutations on p53-DNA Complex', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/mutations.png')
+```
+
+Some structural mutations of p53 can weaken the structure of p53 in the cell (i.e., *in vivo*).
+
+## p53 and Murine Double Minute (i.e., MDM2) Interactions
+
+```{r echo = F, fig.cap = 'Examples of Protein Interactions with p53', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/interactions.png')
+```
+
+```{r echo = F, fig.cap = 'MDM2 and p53 Interactions', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/p53mdm2.png')
+```
+
+```{r echo = F, fig.cap = 'Raw Data Pertaining to MDM2', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/mdm2_raw_data.png')
+```
+
+The **transactivation domain** is like a control center within p53, responsible for activating other genes in the cell. When MDM2 interacts with p53, it inhibits p53's ability to carry out this transactivation process, essentially putting a brake on p53's function.
+
+To understand this regulation better, the scientists conducted an experiment. They looked at the activity of a "reporter gene" in the presence or absence of MDM2. The reporter gene is a marker used to measure the activity of p53. By examining this reporter gene's behavior with and without MDM2, they could determine how MDM2 affects p53's ability to activate other genes.
+
+### MDM2 in Cancer Cells
+
+```{r echo = F, fig.cap = 'Interactions Between MDM2 and p53', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/mdm2_interactions.png')
+```
+
+First, it's important to know that MDM2 is often found in higher amounts in many cancer cells. This overexpression of MDM2 can be problematic because MDM2 can bind to p53 and prevent it from functioning properly. P53 is a protein that acts as a guardian of our DNA, ensuring that our cells don't grow out of control and become cancerous. When MDM2 interacts with p53, it suppresses p53's activity, which can be harmful in the context of cancer.
+
+To counteract this, scientists are exploring the development of "**p53-MDM2 inhibitors**." These are substances or drugs that can block the interaction between p53 and MDM2. By limiting these interactions, it's possible to activate p53, allowing it to carry out its essential role in controlling cell growth and preventing cancer development.
+
+### Small Molecule Inhibitors of MDM2
+
+```{r echo = F, fig.cap = 'Nultins Binding to p53', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/nultins.png')
+```
+
+```{r echo = F, fig.cap = 'Raw Data Regarding Nultin Binding', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/nultin_raw_data.png')
+```
+
+MDM2 is a protein that plays a role in regulating another important protein called p53, which is known as the "guardian of the genome" because it helps maintain the stability of our DNA and prevent the development of cancer.
+
+The researchers found that **nutlins** have a strong ability to bind to MDM2, and they do so at a specific location called the "p53 binding site." This binding interaction between nutlins and MDM2 occurs with high affinity, meaning they stick together very tightly.
+
+## Reactivating Mutant p53
+
+```{r echo = F, fig.cap = 'Popular Mutants of p53', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/p53_mutant.png')
+```
+
+They mention three different types of mutations in this context:
+
+1. **DNA-contact mutations (e.g., R273H):** Some mutations in the p53 protein affect its ability to make contact with DNA. These mutations don't have a significant impact on the overall shape or stability of the protein.
+
+2. **Local distortion mutations (e.g., R249S):** Other mutations cause a distortion in the structure of the protein, mainly near its DNA-binding site. These mutations tend to make the protein less stable, but the destabilization is relatively minor, less than 2 kcal/mol (kilocalories per mole).
+
+3. **Global unfolding mutations (e.g., mutations in the β sandwich):** Some mutations cause a widespread disruption in the protein's structure. These mutations result in a significant destabilization of the protein, exceeding 3 kcal/mol.
+
+### Peptide-Based Rescues
+
+```{r echo = F, fig.cap = 'Reactivation of p53 Binding Peptides', fig.align = 'center'}
+knitr::include_graphics('../imgs/week6/reactivation.png')
+knitr::include_graphics('../imgs/week6/reactivation1.png')
+knitr::include_graphics('../imgs/week6/reactivation2.png')
+```
+
+To achieve this reactivation, scientists are working on the design of certain peptides. Peptides are like short chains of amino acids, the building blocks of proteins. These peptides are created to interact with the mutant p53 protein and potentially restore its function.
+
+In their study, they focus on a protein called 53BP2, which is known to bind to p53. This interaction enhances the ability of p53 to activate genes and specifically promotes its role in causing cell death (apoptosis).
+
+53BP2 binds to p53 at the same spot where p53 usually binds to DNA. This binding site involves three specific regions, referred to as "loops," that make direct contact with p53.
+
+To design peptides that can mimic this interaction, the researchers synthesized three different peptides corresponding to these three loops, which they labeled as CDB1, CDB2, and CDB3.
